@@ -52,4 +52,4 @@ for (link in links){
   
 }
 
-write.csv(contact_matrix,'data_partite_3a.csv')
+write.csv(contact_matrix,'data_matches.csv')
