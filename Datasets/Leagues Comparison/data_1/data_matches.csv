@@ -340,9 +340,9 @@ APOEL FC,Zenit,APOEL FC,1
 Chelsea,Bayer Leverkusen,Chelsea,2
 Dinamo Zagreb,Real Madrid,Real Madrid,1
 Internazionale,Trabzonspor,Trabzonspor,1
-Basel,O<U+021B>elul Gala<U+021B>i,Basel,1
+Basel,Otelul Galati,Basel,1
 Villarreal,Bayern Munich,Bayern Munich,2
-O<U+021B>elul Gala<U+021B>i,Benfica,Benfica,1
+Otelul Galati,Benfica,Benfica,1
 Napoli,Villarreal,Napoli,2
 Lyon,Dinamo Zagreb,Lyon,2
 Bayern Munich,Manchester City,Bayern Munich,2
@@ -359,7 +359,7 @@ Basel,Benfica,Benfica,2
 Lille,Internazionale,Internazionale,1
 Real Madrid,Lyon,Real Madrid,4
 CSKA Moscow,Trabzonspor,CSKA Moscow,3
-O<U+021B>elul Gala<U+021B>i,Manchester United,Manchester United,2
+Otelul Galati,Manchester United,Manchester United,2
 Dinamo Zagreb,Ajax,Ajax,2
 Marseille,Arsenal,Arsenal,1
 Barcelona,Viktoria Plzen,Barcelona,2
@@ -375,13 +375,13 @@ Dortmund,Olympiacos,Dortmund,1
 Lyon,Real Madrid,Real Madrid,2
 Bayern Munich,Napoli,Bayern Munich,1
 Villarreal,Manchester City,Manchester City,3
-Manchester United,O<U+021B>elul Gala<U+021B>i,Manchester United,2
+Manchester United,Otelul Galati,Manchester United,2
 Ajax,Dinamo Zagreb,Ajax,4
 Internazionale,Lille,Internazionale,1
 Real Madrid,Dinamo Zagreb,Real Madrid,4
 Bayern Munich,Villarreal,Bayern Munich,2
 Napoli,Manchester City,Napoli,1
-O<U+021B>elul Gala<U+021B>i,Basel,Basel,1
+Otelul Galati,Basel,Basel,1
 CSKA Moscow,Lille,Lille,2
 Bayer Leverkusen,Chelsea,Bayer Leverkusen,1
 Arsenal,Dortmund,Arsenal,1
@@ -397,7 +397,7 @@ Barcelona,BATE Borisov,Barcelona,4
 Dortmund,Marseille,Marseille,1
 Manchester City,Bayern Munich,Manchester City,2
 Dinamo Zagreb,Lyon,Lyon,6
-Benfica,O<U+021B>elul Gala<U+021B>i,Benfica,1
+Benfica,Otelul Galati,Benfica,1
 Basel,Manchester United,Basel,1
 Villarreal,Napoli,Napoli,2
 Internazionale,CSKA Moscow,CSKA Moscow,1
@@ -2545,7 +2545,7 @@ Atlético Madrid,Celtic,Atlético Madrid,2
 FC Copenhagen,Vorskla Poltava,FC Copenhagen,1
 Paris Saint-Germain,Red Bull Salzburg,Paris Saint-Germain,2
 Slovan Bratislava,Athletic Club,Athletic Club,1
-Hapoel Tel Aviv,Rapid Bucure<U+0219>ti,Rapid Bucure<U+0219>ti,1
+Hapoel Tel Aviv,Rapid Bucuresti,Rapid Bucuresti,1
 Austria Wien,Metalist Kharkiv,Metalist Kharkiv,1
 Wisla Kraków,Odense,Odense,2
 Club Brugge,NK Maribor,Club Brugge,2
@@ -2558,7 +2558,7 @@ Maccabi Haifa,AEK Larnaca FC,Maccabi Haifa,1
 Tottenham Hotspur,Shamrock Rovers,Tottenham Hotspur,2
 Twente,Wisla Kraków,Twente,3
 Malmö,Austria Wien,Austria Wien,1
-Rapid Bucure<U+0219>ti,PSV Eindhoven,PSV Eindhoven,2
+Rapid Bucuresti,PSV Eindhoven,PSV Eindhoven,2
 Sporting CP,Lazio,Sporting CP,1
 Schalke 04,Maccabi Haifa,Schalke 04,2
 Stoke City,Besiktas,Stoke City,1
@@ -2586,11 +2586,11 @@ AEK Larnaca FC,Schalke 04,Schalke 04,5
 PAOK,Shamrock Rovers,PAOK,1
 Dynamo Kyiv,Besiktas,Dynamo Kyiv,1
 Sporting CP,Vaslui,Sporting CP,2
-Rapid Bucure<U+0219>ti,Legia Warsaw,Legia Warsaw,1
+Rapid Bucuresti,Legia Warsaw,Legia Warsaw,1
 Lokomotiv Moscow,AEK Athens,Lokomotiv Moscow,2
 Metalist Kharkiv,Malmö,Metalist Kharkiv,2
 Rubin Kazan,Tottenham Hotspur,Rubin Kazan,1
-Legia Warsaw,Rapid Bucure<U+0219>ti,Legia Warsaw,2
+Legia Warsaw,Rapid Bucuresti,Legia Warsaw,2
 Steaua Bucarest,Maccabi Haifa,Steaua Bucarest,2
 Vorskla Poltava,Standard Liège,Standard Liège,2
 Paris Saint-Germain,Slovan Bratislava,Paris Saint-Germain,1
@@ -2616,7 +2616,7 @@ Braga,Birmingham City,Braga,1
 Tottenham Hotspur,PAOK,PAOK,1
 NK Maribor,Club Brugge,Club Brugge,1
 Rubin Kazan,Shamrock Rovers,Rubin Kazan,3
-Rapid Bucure<U+0219>ti,Hapoel Tel Aviv,Hapoel Tel Aviv,2
+Rapid Bucuresti,Hapoel Tel Aviv,Hapoel Tel Aviv,2
 AEK Athens,Anderlecht,Anderlecht,1
 Twente,Fulham,Twente,1
 Schalke 04,Steaua Bucarest,Schalke 04,1
@@ -2643,7 +2643,7 @@ FC Copenhagen,Standard Liège,Standard Liège,1
 Austria Wien,Malmö,Austria Wien,2
 Hapoel Tel Aviv,Legia Warsaw,Hapoel Tel Aviv,2
 Hannover 96,Vorskla Poltava,Hannover 96,2
-PSV Eindhoven,Rapid Bucure<U+0219>ti,PSV Eindhoven,1
+PSV Eindhoven,Rapid Bucuresti,PSV Eindhoven,1
 Birmingham City,NK Maribor,Birmingham City,1
 Braga,Besiktas,Besiktas,2
 Rubin Kazan,Olympiacos,Olympiacos,1
@@ -2849,7 +2849,7 @@ Rennes,FC Rustavi,Rennes,2
 Olympiacos Volou,Differdange 03,Olympiacos Volou,3
 Strømsgodset,Atlético Madrid,Atlético Madrid,2
 Lazio,FK Rabotnicki,Lazio,6
-Slask Wroclaw,Rapid Bucure<U+0219>ti,Rapid Bucure<U+0219>ti,2
+Slask Wroclaw,Rapid Bucuresti,Rapid Bucuresti,2
 Atlético Madrid,Vitória Guimarães,Atlético Madrid,2
 PAOK,Karpaty Lviv,PAOK,2
 Differdange 03,Paris Saint-Germain,Paris Saint-Germain,4
@@ -3115,7 +3115,7 @@ Mladá Boleslav,Þór Akureyri,Mladá Boleslav,3
 Eskisehirspor,St Johnstone,Eskisehirspor,2
 Differdange 03,Gent,Gent,1
 Metalurh Donetsk,FK Celik Nikšic,Metalurh Donetsk,7
-Rapid Bucure<U+0219>ti,MyPa,Rapid Bucure<U+0219>ti,2
+Rapid Bucuresti,MyPa,Rapid Bucuresti,2
 AGF,FC Dila Gori,FC Dila Gori,1
 Hajduk Split,Skonto FC,Hajduk Split,2
 FK Renova,FC Gomel,FC Gomel,2
@@ -3154,7 +3154,7 @@ Gent,Differdange 03,Gent,1
 St Patrick's Athletic,NK Široki Brijeg,St Patrick's Athletic,1
 Vitesse,Lokomotiv Plovdiv,Vitesse,2
 Admira Wacker Mödling,Žalgiris,Admira Wacker Mödling,4
-MyPa,Rapid Bucure<U+0219>ti,Rapid Bucure<U+0219>ti,2
+MyPa,Rapid Bucuresti,Rapid Bucuresti,2
 KuPS,Maccabi Netanya,Maccabi Netanya,1
 Þór Akureyri,Mladá Boleslav,Mladá Boleslav,1
 Lech Poznan,Khazar Lankaran,Lech Poznan,1
@@ -3172,7 +3172,7 @@ APOEL FC,Aalesund,APOEL FC,1
 Bnei Yehuda,PAOK,PAOK,2
 Videoton,Gent,Videoton,1
 Genk,FC Aktobe,Genk,1
-Heerenveen,Rapid Bucure<U+0219>ti,Heerenveen,4
+Heerenveen,Rapid Bucuresti,Heerenveen,4
 St Patrick's Athletic,Hannover 96,Hannover 96,3
 Athletic Club,Slaven Belupo,Athletic Club,2
 Admira Wacker Mödling,Sparta Prague,Sparta Prague,2
@@ -3201,7 +3201,7 @@ Bursaspor,KuPS,Bursaspor,6
 Legia Warsaw,Ried,Legia Warsaw,2
 Viktoria Plzen,Ruch Chorzów,Viktoria Plzen,5
 Vitesse,Anzhi Makhachkala,Anzhi Makhachkala,2
-Rapid Bucure<U+0219>ti,Heerenveen,Rapid Bucure<U+0219>ti,1
+Rapid Bucuresti,Heerenveen,Rapid Bucuresti,1
 Elfsborg,Horsens,Horsens,1
 Hannover 96,St Patrick's Athletic,Hannover 96,2
 Slaven Belupo,Athletic Club,Slaven Belupo,1
@@ -6057,3 +6057,465 @@ LASK,Manchester United,Manchester United,5
 Istanbul Basaksehir,FC Copenhagen,Istanbul Basaksehir,1
 Rangers,Bayer Leverkusen,Bayer Leverkusen,2
 Wolfsburg,Shakhtar Donetsk,Shakhtar Donetsk,1
+Zenit,Club Brugge,Club Brugge,1
+Dynamo Kyiv,Juventus,Juventus,2
+Barcelona,Ferencváros,Barcelona,4
+RB Leipzig,Istanbul Basaksehir,RB Leipzig,2
+Paris Saint-Germain,Manchester United,Manchester United,1
+Lazio,Dortmund,Lazio,2
+Real Madrid,Shakhtar Donetsk,Shakhtar Donetsk,1
+Manchester City,Porto,Manchester City,2
+Bayern Munich,Atlético Madrid,Bayern Munich,4
+Ajax,Liverpool,Liverpool,1
+Midtjylland,Atalanta,Atalanta,4
+Olympiacos,Marseille,Olympiacos,1
+Lokomotiv Moscow,Bayern Munich,Bayern Munich,1
+Liverpool,Midtjylland,Liverpool,2
+Porto,Olympiacos,Porto,2
+Marseille,Manchester City,Manchester City,3
+Atlético Madrid,Red Bull Salzburg,Atlético Madrid,1
+Krasnodar,Chelsea,Chelsea,4
+Istanbul Basaksehir,Paris Saint-Germain,Paris Saint-Germain,2
+Manchester United,RB Leipzig,Manchester United,5
+Dortmund,Zenit,Dortmund,2
+Sevilla,Rennes,Sevilla,1
+Juventus,Barcelona,Barcelona,2
+Shakhtar Donetsk,Mönchengladbach,Mönchengladbach,6
+Porto,Marseille,Porto,3
+Manchester City,Olympiacos,Manchester City,3
+Red Bull Salzburg,Bayern Munich,Bayern Munich,4
+Midtjylland,Ajax,Ajax,1
+Real Madrid,Internazionale,Real Madrid,1
+Atalanta,Liverpool,Liverpool,5
+Istanbul Basaksehir,Manchester United,Istanbul Basaksehir,1
+Chelsea,Rennes,Chelsea,3
+Sevilla,Krasnodar,Sevilla,1
+Club Brugge,Dortmund,Dortmund,3
+Ferencváros,Juventus,Juventus,3
+Barcelona,Dynamo Kyiv,Barcelona,1
+RB Leipzig,Paris Saint-Germain,RB Leipzig,1
+Rennes,Chelsea,Chelsea,1
+Krasnodar,Sevilla,Sevilla,1
+Manchester United,Istanbul Basaksehir,Manchester United,3
+Lazio,Zenit,Lazio,2
+Paris Saint-Germain,RB Leipzig,Paris Saint-Germain,1
+Dortmund,Club Brugge,Dortmund,3
+Juventus,Ferencváros,Juventus,1
+Dynamo Kyiv,Barcelona,Barcelona,4
+Mönchengladbach,Shakhtar Donetsk,Mönchengladbach,4
+Olympiacos,Manchester City,Manchester City,1
+Liverpool,Atalanta,Atalanta,2
+Marseille,Porto,Porto,2
+Internazionale,Real Madrid,Real Madrid,2
+Ajax,Midtjylland,Ajax,2
+Bayern Munich,Red Bull Salzburg,Bayern Munich,2
+Shakhtar Donetsk,Real Madrid,Shakhtar Donetsk,2
+Lokomotiv Moscow,Red Bull Salzburg,Red Bull Salzburg,2
+Liverpool,Ajax,Liverpool,1
+Marseille,Olympiacos,Marseille,1
+Mönchengladbach,Internazionale,Internazionale,1
+Krasnodar,Rennes,Krasnodar,1
+Istanbul Basaksehir,RB Leipzig,RB Leipzig,1
+Manchester United,Paris Saint-Germain,Paris Saint-Germain,2
+Club Brugge,Zenit,Club Brugge,3
+Juventus,Dynamo Kyiv,Juventus,3
+Ferencváros,Barcelona,Barcelona,3
+Sevilla,Chelsea,Chelsea,4
+Zenit,Dortmund,Dortmund,1
+Barcelona,Juventus,Juventus,3
+Rennes,Sevilla,Sevilla,2
+RB Leipzig,Manchester United,RB Leipzig,1
+Dynamo Kyiv,Ferencváros,Dynamo Kyiv,1
+Ajax,Atalanta,Atalanta,1
+Paris Saint-Germain,Istanbul Basaksehir,Paris Saint-Germain,4
+Manchester City,Marseille,Manchester City,3
+Real Madrid,Mönchengladbach,Real Madrid,2
+Bayern Munich,Lokomotiv Moscow,Bayern Munich,2
+Red Bull Salzburg,Atlético Madrid,Atlético Madrid,2
+Olympiacos,Porto,Porto,2
+Barcelona,Paris Saint-Germain,Paris Saint-Germain,3
+RB Leipzig,Liverpool,Liverpool,2
+Porto,Juventus,Porto,1
+Sevilla,Dortmund,Dortmund,1
+Lazio,Bayern Munich,Bayern Munich,3
+Atlético Madrid,Chelsea,Chelsea,1
+Mönchengladbach,Manchester City,Manchester City,2
+Atalanta,Real Madrid,Real Madrid,1
+Juventus,Porto,Juventus,1
+Liverpool,RB Leipzig,Liverpool,2
+Manchester City,Mönchengladbach,Manchester City,2
+Real Madrid,Atalanta,Real Madrid,2
+Chelsea,Atlético Madrid,Chelsea,2
+Bayern Munich,Lazio,Bayern Munich,1
+Manchester City,Dortmund,Manchester City,1
+Real Madrid,Liverpool,Real Madrid,2
+Porto,Chelsea,Chelsea,2
+Bayern Munich,Paris Saint-Germain,Paris Saint-Germain,1
+Chelsea,Porto,Porto,1
+Paris Saint-Germain,Bayern Munich,Bayern Munich,1
+Dortmund,Manchester City,Manchester City,1
+Paris Saint-Germain,Manchester City,Manchester City,1
+Manchester City,Paris Saint-Germain,Manchester City,2
+Chelsea,Real Madrid,Chelsea,2
+Manchester City,Chelsea,Chelsea,1
+SP Tre Fiori,Linfield,Linfield,2
+KF Drita,Inter d'Escaldes,KF Drita,1
+Dundalk,Molde,Molde,1
+Bayer Leverkusen,Nice,Bayer Leverkusen,4
+Napoli,AZ Alkmaar,AZ Alkmaar,1
+PSV Eindhoven,Granada,Granada,1
+Young Boys,Roma,Roma,1
+Rijeka,Real Sociedad,Real Sociedad,1
+Standard Liège,Rangers,Rangers,2
+Lech Poznan,Benfica,Benfica,2
+Rapid Wien,Arsenal,Arsenal,1
+CSKA Sofia,CFR Cluj,CFR Cluj,2
+Hapoel Be'er Sheva,Slavia Prague,Hapoel Be'er Sheva,2
+Celtic,Milan,Milan,2
+Leicester City,Zorya Luhansk,Leicester City,3
+Tottenham Hotspur,LASK,Tottenham Hotspur,3
+Braga,AEK Athens,Braga,3
+Slovan Liberec,Gent,Slovan Liberec,1
+Sparta Prague,Lille,Lille,3
+Villarreal,Sivasspor,Villarreal,2
+Hoffenheim,Red Star Belgrade,Hoffenheim,2
+Ludogorets Razgrad,Antwerp,Antwerp,1
+Maccabi Tel Aviv,Qarabag Agdam,Maccabi Tel Aviv,1
+Antwerp,Tottenham Hotspur,Antwerp,1
+Red Star Belgrade,Slovan Liberec,Red Star Belgrade,4
+Feyenoord,Wolfsberger AC,Wolfsberger AC,3
+Gent,Hoffenheim,Hoffenheim,3
+LASK,Ludogorets Razgrad,LASK,1
+Milan,Sparta Prague,Milan,3
+Zorya Luhansk,Braga,Braga,1
+AEK Athens,Leicester City,Leicester City,1
+Sivasspor,Maccabi Tel Aviv,Maccabi Tel Aviv,1
+Qarabag Agdam,Villarreal,Villarreal,2
+Rangers,Lech Poznan,Rangers,1
+Benfica,Standard Liège,Benfica,3
+Arsenal,Dundalk,Arsenal,3
+Slavia Prague,Bayer Leverkusen,Slavia Prague,1
+Nice,Hapoel Be'er Sheva,Nice,1
+Real Sociedad,Napoli,Napoli,1
+Molde,Rapid Wien,Molde,1
+AZ Alkmaar,Rijeka,AZ Alkmaar,3
+AC Omonia,PSV Eindhoven,PSV Eindhoven,1
+Slavia Prague,Nice,Slavia Prague,1
+Rijeka,Napoli,Napoli,1
+Real Sociedad,AZ Alkmaar,Real Sociedad,1
+Rapid Wien,Dundalk,Rapid Wien,1
+Roma,CFR Cluj,Roma,5
+Lech Poznan,Standard Liège,Lech Poznan,2
+PAOK,PSV Eindhoven,PAOK,3
+Ludogorets Razgrad,Tottenham Hotspur,Tottenham Hotspur,2
+Hapoel Be'er Sheva,Bayer Leverkusen,Bayer Leverkusen,2
+AC Omonia,Granada,Granada,2
+Sivasspor,Qarabag Agdam,Sivasspor,2
+Arsenal,Molde,Arsenal,3
+Leicester City,Braga,Leicester City,4
+Celtic,Sparta Prague,Sparta Prague,3
+Red Star Belgrade,Gent,Red Star Belgrade,1
+Young Boys,CSKA Sofia,Young Boys,3
+Hoffenheim,Slovan Liberec,Hoffenheim,5
+Milan,Lille,Lille,3
+Feyenoord,CSKA Moscow,Feyenoord,2
+Antwerp,LASK,LASK,1
+Villarreal,Maccabi Tel Aviv,Villarreal,4
+Dinamo Zagreb,Wolfsberger AC,Dinamo Zagreb,1
+Zorya Luhansk,AEK Athens,AEK Athens,3
+Wolfsberger AC,Dinamo Zagreb,Dinamo Zagreb,3
+Gent,Red Star Belgrade,Red Star Belgrade,2
+LASK,Antwerp,Antwerp,2
+Molde,Arsenal,Arsenal,3
+Slovan Liberec,Hoffenheim,Hoffenheim,2
+Sparta Prague,Celtic,Sparta Prague,3
+AEK Athens,Zorya Luhansk,Zorya Luhansk,3
+CSKA Sofia,Young Boys,Young Boys,1
+Qarabag Agdam,Sivasspor,Sivasspor,1
+Tottenham Hotspur,Ludogorets Razgrad,Tottenham Hotspur,4
+Dundalk,Rapid Wien,Rapid Wien,2
+Granada,AC Omonia,Granada,1
+PSV Eindhoven,PAOK,PSV Eindhoven,1
+Napoli,Rijeka,Napoli,2
+Standard Liège,Lech Poznan,Standard Liège,1
+Bayer Leverkusen,Hapoel Be'er Sheva,Bayer Leverkusen,3
+Nice,Slavia Prague,Slavia Prague,2
+CFR Cluj,Roma,Roma,2
+Gent,Slovan Liberec,Slovan Liberec,1
+Antwerp,Ludogorets Razgrad,Antwerp,2
+Feyenoord,Dinamo Zagreb,Dinamo Zagreb,2
+Milan,Celtic,Milan,2
+Lille,Sparta Prague,Lille,1
+AEK Athens,Braga,Braga,2
+Zorya Luhansk,Leicester City,Zorya Luhansk,1
+Sivasspor,Villarreal,Villarreal,1
+CSKA Moscow,Wolfsberger AC,Wolfsberger AC,1
+Benfica,Lech Poznan,Benfica,4
+Arsenal,Rapid Wien,Arsenal,3
+Rangers,Standard Liège,Rangers,1
+Roma,Young Boys,Roma,2
+Molde,Dundalk,Molde,2
+Granada,PSV Eindhoven,PSV Eindhoven,1
+Nice,Bayer Leverkusen,Bayer Leverkusen,1
+Slavia Prague,Hapoel Be'er Sheva,Slavia Prague,3
+AC Omonia,PAOK,AC Omonia,1
+Dundalk,Arsenal,Arsenal,2
+Young Boys,CFR Cluj,Young Boys,1
+PSV Eindhoven,AC Omonia,PSV Eindhoven,4
+Bayer Leverkusen,Slavia Prague,Bayer Leverkusen,4
+Lech Poznan,Rangers,Rangers,2
+Rijeka,AZ Alkmaar,Rijeka,1
+Hapoel Be'er Sheva,Nice,Hapoel Be'er Sheva,1
+CSKA Sofia,Roma,CSKA Sofia,2
+Leicester City,AEK Athens,Leicester City,2
+Celtic,Lille,Celtic,1
+Tottenham Hotspur,Antwerp,Tottenham Hotspur,2
+Braga,Zorya Luhansk,Braga,2
+Young Boys,Manchester United,Young Boys,1
+Chelsea,Zenit,Chelsea,1
+Barcelona,Bayern Munich,Bayern Munich,3
+Malmö,Juventus,Juventus,3
+Sheriff Tiraspol,Shakhtar Donetsk,Sheriff Tiraspol,2
+Besiktas,Dortmund,Dortmund,1
+Sporting CP,Ajax,Ajax,4
+Manchester City,RB Leipzig,Manchester City,3
+Liverpool,Milan,Liverpool,1
+Internazionale,Real Madrid,Real Madrid,1
+Ajax,Besiktas,Ajax,2
+Porto,Liverpool,Liverpool,4
+Real Madrid,Sheriff Tiraspol,Sheriff Tiraspol,1
+RB Leipzig,Club Brugge,Club Brugge,1
+Dortmund,Sporting CP,Dortmund,1
+Paris Saint-Germain,Manchester City,Paris Saint-Germain,2
+Milan,Atlético Madrid,Atlético Madrid,1
+Atalanta,Young Boys,Atalanta,1
+Zenit,Malmö,Zenit,4
+Manchester United,Villarreal,Manchester United,1
+Benfica,Barcelona,Benfica,3
+Red Bull Salzburg,Lille,Red Bull Salzburg,1
+Juventus,Chelsea,Juventus,1
+Bayern Munich,Dynamo Kyiv,Bayern Munich,5
+Club Brugge,Manchester City,Manchester City,4
+Besiktas,Sporting CP,Sporting CP,3
+Porto,Milan,Porto,1
+Atlético Madrid,Liverpool,Liverpool,1
+Internazionale,Sheriff Tiraspol,Internazionale,2
+Paris Saint-Germain,RB Leipzig,Paris Saint-Germain,1
+Ajax,Dortmund,Ajax,4
+Shakhtar Donetsk,Real Madrid,Real Madrid,5
+Red Bull Salzburg,Wolfsburg,Red Bull Salzburg,2
+Barcelona,Dynamo Kyiv,Barcelona,1
+Manchester United,Atalanta,Manchester United,1
+Benfica,Bayern Munich,Bayern Munich,4
+Chelsea,Malmö,Chelsea,4
+Young Boys,Villarreal,Villarreal,3
+Zenit,Juventus,Juventus,1
+Wolfsburg,Red Bull Salzburg,Wolfsburg,1
+Malmö,Chelsea,Chelsea,1
+Bayern Munich,Benfica,Bayern Munich,3
+Villarreal,Young Boys,Villarreal,2
+Juventus,Zenit,Juventus,2
+Sevilla,Lille,Lille,1
+Dynamo Kyiv,Barcelona,Barcelona,1
+Real Madrid,Shakhtar Donetsk,Real Madrid,1
+Manchester City,Club Brugge,Manchester City,3
+Sporting CP,Besiktas,Sporting CP,4
+Liverpool,Atlético Madrid,Liverpool,2
+Dortmund,Ajax,Ajax,2
+Sheriff Tiraspol,Internazionale,Internazionale,2
+Villarreal,Manchester United,Manchester United,2
+Dynamo Kyiv,Bayern Munich,Bayern Munich,1
+Chelsea,Juventus,Chelsea,4
+Lille,Red Bull Salzburg,Lille,1
+Sevilla,Wolfsburg,Sevilla,2
+Internazionale,Shakhtar Donetsk,Internazionale,2
+Besiktas,Ajax,Ajax,1
+Manchester City,Paris Saint-Germain,Manchester City,1
+Sporting CP,Dortmund,Sporting CP,2
+Liverpool,Porto,Liverpool,2
+Atlético Madrid,Milan,Milan,1
+Club Brugge,RB Leipzig,RB Leipzig,5
+Sheriff Tiraspol,Real Madrid,Real Madrid,3
+Paris Saint-Germain,Club Brugge,Paris Saint-Germain,3
+RB Leipzig,Manchester City,RB Leipzig,1
+Porto,Atlético Madrid,Atlético Madrid,2
+Real Madrid,Internazionale,Real Madrid,2
+Dortmund,Besiktas,Dortmund,5
+Ajax,Sporting CP,Ajax,2
+Milan,Liverpool,Liverpool,1
+Juventus,Malmö,Juventus,1
+Benfica,Dynamo Kyiv,Benfica,2
+Bayern Munich,Barcelona,Bayern Munich,3
+Wolfsburg,Lille,Lille,2
+Red Bull Salzburg,Sevilla,Red Bull Salzburg,1
+Atalanta,Villarreal,Villarreal,1
+Sporting CP,Manchester City,Manchester City,5
+Paris Saint-Germain,Real Madrid,Paris Saint-Germain,1
+Internazionale,Liverpool,Liverpool,2
+Chelsea,Lille,Chelsea,2
+Liverpool,Internazionale,Internazionale,1
+Bayern Munich,Red Bull Salzburg,Bayern Munich,6
+Real Madrid,Paris Saint-Germain,Real Madrid,2
+Manchester United,Atlético Madrid,Atlético Madrid,1
+Ajax,Benfica,Benfica,1
+Lille,Chelsea,Chelsea,1
+Juventus,Villarreal,Villarreal,3
+SS Folgore,FC Prishtina,FC Prishtina,2
+HB,Inter d'Escaldes,Inter d'Escaldes,1
+FC Prishtina,Inter d'Escaldes,FC Prishtina,2
+Ferencváros,FC Prishtina,Ferencváros,3
+Flora,Hibernians,Flora,2
+HJK Helsinki,Buducnost Podgorica,HJK Helsinki,2
+Žalgiris,Linfield,Žalgiris,2
+CFR Cluj,Borac Banja Luka,CFR Cluj,2
+Shkëndija 79,NŠ Mura,NŠ Mura,1
+Bodø/Glimt,Legia Warsaw,Legia Warsaw,1
+Dinamo Tbilisi,Neftçi,Neftçi,1
+Slovan Bratislava,Shamrock Rovers,Slovan Bratislava,2
+Teuta Durrës,Sheriff Tiraspol,Sheriff Tiraspol,4
+Malmö,Riga FC,Malmö,1
+Dinamo Zagreb,Valur,Dinamo Zagreb,1
+Ludogorets Razgrad,Shakhtyor Soligorsk,Ludogorets Razgrad,1
+Hibernians,Flora,Flora,3
+Lincoln Red Imps,Fola Esch,Lincoln Red Imps,5
+Sheriff Tiraspol,Teuta Durrës,Sheriff Tiraspol,1
+Borac Banja Luka,CFR Cluj,Borac Banja Luka,1
+NŠ Mura,Shkëndija 79,NŠ Mura,5
+FC Prishtina,Ferencváros,Ferencváros,2
+Buducnost Podgorica,HJK Helsinki,HJK Helsinki,4
+Linfield,Žalgiris,Žalgiris,1
+Shamrock Rovers,Slovan Bratislava,Shamrock Rovers,1
+Shakhtyor Soligorsk,Ludogorets Razgrad,Ludogorets Razgrad,1
+Valur,Dinamo Zagreb,Dinamo Zagreb,2
+Qairat Almaty,Maccabi Haifa,Qairat Almaty,2
+Alashkert,Connah's Quay Nomads,Alashkert,1
+Neftçi,Dinamo Tbilisi,Neftçi,1
+Legia Warsaw,Bodø/Glimt,Legia Warsaw,2
+Alashkert,Sheriff Tiraspol,Sheriff Tiraspol,1
+Lincoln Red Imps,CFR Cluj,CFR Cluj,1
+Ferencváros,Žalgiris,Ferencváros,2
+Dinamo Zagreb,AC Omonia,Dinamo Zagreb,2
+Rapid Wien,Sparta Prague,Rapid Wien,1
+Qairat Almaty,Red Star Belgrade,Qairat Almaty,1
+Malmö,HJK Helsinki,Malmö,1
+PSV Eindhoven,Galatasaray,PSV Eindhoven,4
+Legia Warsaw,Flora,Legia Warsaw,1
+Olympiacos,Neftçi,Olympiacos,1
+Flora,Legia Warsaw,Legia Warsaw,1
+AC Omonia,Dinamo Zagreb,Dinamo Zagreb,1
+Žalgiris,Ferencváros,Ferencváros,2
+Sheriff Tiraspol,Alashkert,Sheriff Tiraspol,2
+Neftçi,Olympiacos,Olympiacos,1
+CFR Cluj,Lincoln Red Imps,CFR Cluj,2
+Midtjylland,Celtic,Midtjylland,1
+Ludogorets Razgrad,NŠ Mura,Ludogorets Razgrad,2
+Galatasaray,PSV Eindhoven,PSV Eindhoven,1
+Young Boys,Slovan Bratislava,Young Boys,1
+Red Star Belgrade,Qairat Almaty,Red Star Belgrade,5
+Sparta Prague,Rapid Wien,Sparta Prague,2
+Sparta Prague,Monaco,Monaco,2
+Malmö,Rangers,Malmö,1
+PSV Eindhoven,Midtjylland,PSV Eindhoven,3
+Genk,Shakhtar Donetsk,Shakhtar Donetsk,1
+Spartak Moscow,Benfica,Benfica,2
+Ferencváros,Slavia Prague,Ferencváros,2
+Slavia Prague,Ferencváros,Slavia Prague,1
+Sheriff Tiraspol,Red Star Belgrade,Sheriff Tiraspol,1
+Shakhtar Donetsk,Genk,Shakhtar Donetsk,1
+Monaco,Sparta Prague,Monaco,2
+Midtjylland,PSV Eindhoven,PSV Eindhoven,1
+Young Boys,CFR Cluj,Young Boys,2
+Benfica,Spartak Moscow,Benfica,2
+Rangers,Malmö,Malmö,1
+Legia Warsaw,Dinamo Zagreb,Dinamo Zagreb,1
+Monaco,Shakhtar Donetsk,Shakhtar Donetsk,1
+Red Bull Salzburg,Brøndby,Red Bull Salzburg,1
+Sheriff Tiraspol,Dinamo Zagreb,Sheriff Tiraspol,3
+Benfica,PSV Eindhoven,Benfica,1
+Young Boys,Ferencváros,Young Boys,1
+Malmö,Ludogorets Razgrad,Malmö,2
+Ferencváros,Young Boys,Young Boys,1
+Ludogorets Razgrad,Malmö,Ludogorets Razgrad,1
+Brøndby,Red Bull Salzburg,Red Bull Salzburg,1
+Spartak Moscow,Legia Warsaw,Legia Warsaw,1
+Real Betis,Celtic,Real Betis,1
+Rapid Wien,Genk,Genk,1
+Red Star Belgrade,Braga,Red Star Belgrade,1
+Bayer Leverkusen,Ferencváros,Bayer Leverkusen,1
+Dinamo Zagreb,West Ham United,West Ham United,2
+Galatasaray,Lazio,Galatasaray,1
+Rangers,Lyon,Lyon,2
+Monaco,Sturm Graz,Monaco,1
+Olympiacos,Antwerp,Olympiacos,1
+Lyon,Brøndby,Lyon,3
+Napoli,Spartak Moscow,Spartak Moscow,1
+Sturm Graz,PSV Eindhoven,PSV Eindhoven,3
+Legia Warsaw,Leicester City,Legia Warsaw,1
+Sparta Prague,Rangers,Sparta Prague,1
+Antwerp,Eintracht Frankfurt,Eintracht Frankfurt,1
+Fenerbahçe,Olympiacos,Olympiacos,3
+Celtic,Bayer Leverkusen,Bayer Leverkusen,4
+West Ham United,Rapid Wien,West Ham United,2
+Braga,Midtjylland,Braga,2
+Genk,Dinamo Zagreb,Dinamo Zagreb,3
+Ferencváros,Real Betis,Real Betis,2
+Lazio,Lokomotiv Moscow,Lazio,2
+Ludogorets Razgrad,Red Star Belgrade,Red Star Belgrade,1
+Celtic,Ferencváros,Celtic,2
+Spartak Moscow,Leicester City,Leicester City,1
+Rapid Wien,Dinamo Zagreb,Rapid Wien,1
+Ludogorets Razgrad,Braga,Braga,1
+West Ham United,Genk,West Ham United,3
+Rangers,Brøndby,Rangers,2
+Eintracht Frankfurt,Olympiacos,Eintracht Frankfurt,2
+Sparta Prague,Lyon,Lyon,1
+Sturm Graz,Real Sociedad,Real Sociedad,1
+PSV Eindhoven,Monaco,Monaco,1
+Napoli,Legia Warsaw,Napoli,3
+Lokomotiv Moscow,Galatasaray,Galatasaray,1
+Legia Warsaw,Napoli,Napoli,3
+Lyon,Sparta Prague,Lyon,3
+Olympiacos,Eintracht Frankfurt,Eintracht Frankfurt,1
+Braga,Ludogorets Razgrad,Braga,2
+Ferencváros,Celtic,Celtic,1
+Red Star Belgrade,Midtjylland,Midtjylland,1
+Bayer Leverkusen,Real Betis,Bayer Leverkusen,4
+Antwerp,Fenerbahçe,Fenerbahçe,3
+Dinamo Zagreb,Rapid Wien,Dinamo Zagreb,2
+Spartak Moscow,Napoli,Spartak Moscow,1
+Rapid Wien,West Ham United,West Ham United,2
+Real Betis,Ferencváros,Real Betis,2
+Red Star Belgrade,Ludogorets Razgrad,Red Star Belgrade,1
+Bayer Leverkusen,Celtic,Bayer Leverkusen,1
+Midtjylland,Braga,Midtjylland,1
+Galatasaray,Marseille,Galatasaray,2
+Lokomotiv Moscow,Lazio,Lazio,3
+Leicester City,Legia Warsaw,Leicester City,2
+Rangers,Sparta Prague,Rangers,2
+Monaco,Real Sociedad,Monaco,1
+Brøndby,Lyon,Lyon,2
+PSV Eindhoven,Sturm Graz,PSV Eindhoven,2
+Olympiacos,Fenerbahçe,Olympiacos,1
+Legia Warsaw,Spartak Moscow,Spartak Moscow,1
+Antwerp,Olympiacos,Antwerp,1
+Sparta Prague,Brøndby,Sparta Prague,2
+Napoli,Leicester City,Napoli,1
+Real Sociedad,PSV Eindhoven,Real Sociedad,3
+West Ham United,Dinamo Zagreb,Dinamo Zagreb,1
+Celtic,Real Betis,Celtic,1
+Marseille,Lokomotiv Moscow,Marseille,1
+Ferencváros,Bayer Leverkusen,Ferencváros,1
+Genk,Rapid Wien,Rapid Wien,1
+Dortmund,Rangers,Rangers,2
+Sheriff Tiraspol,Braga,Sheriff Tiraspol,2
+Zenit,Real Betis,Real Betis,1
+Porto,Lazio,Porto,1
+Sevilla,Dinamo Zagreb,Sevilla,2
+Atalanta,Olympiacos,Atalanta,1
+Real Sociedad,RB Leipzig,RB Leipzig,2
+Dinamo Zagreb,Sevilla,Dinamo Zagreb,1
+Olympiacos,Atalanta,Atalanta,3
+Braga,Sheriff Tiraspol,Braga,2
+Napoli,Barcelona,Barcelona,2
+Porto,Lyon,Lyon,1
+Real Betis,Eintracht Frankfurt,Eintracht Frankfurt,1

@@ -14,7 +14,7 @@ for (j in listofpackages){
   library(j, character.only = T)
 }
 
-year = c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020)
+year = c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022)
 contact_matrix = data.frame()
 
 links = c("https://fbref.com/en/comps/8/history/UEFA-Champions-League-Seasons",
