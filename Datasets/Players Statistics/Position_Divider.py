@@ -25,14 +25,14 @@ Gen_Pos = play.pop('Gen_Pos')
 
 play.insert(6, 'Gen_Pos', Gen_Pos)
 
-def deleteCol(dataset, coln):
+def deleteCol(dataset):
     dataset = dataset.reset_index()
-    dataset = dataset.drop(['index', coln], axis = 1)
+    dataset = dataset.drop(['index'], axis = 1)
     return dataset
 
 def saveData(position, final_name):
     dataset = play[play['Gen_Pos'] == position]
-    dataset = deleteCol(dataset, 'Unnamed: 0')
+    dataset = deleteCol(dataset)
     dataset.to_csv(final_name, index = False, encoding='latin-1')
     
 nuovi_dati = [["Centre-Back", "Centre_Backs.csv"],
