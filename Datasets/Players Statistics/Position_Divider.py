@@ -25,17 +25,21 @@ Gen_Pos = play.pop('Gen_Pos')
 
 play.insert(6, 'Gen_Pos', Gen_Pos)
 
-Centre_Backs = play[play['Gen_Pos'] == "Centre-Back"]
-Centre_Backs.to_csv("Centre_Backs.csv")
+def deleteCol(dataset, coln):
+    dataset = dataset.reset_index()
+    dataset = dataset.drop(['index', coln], axis = 1)
+    return dataset
 
-Full_Backs = play[play['Gen_Pos'] == "Full-Back"]
-Full_Backs.to_csv("Full_Backs.csv")
+def saveData(position, final_name):
+    dataset = play[play['Gen_Pos'] == position]
+    dataset = deleteCol(dataset, 'Unnamed: 0')
+    dataset.to_csv(final_name, index = False, encoding='latin-1')
+    
+nuovi_dati = [["Centre-Back", "Centre_Backs.csv"],
+              ["Full-Back", "Full_Backs.csv"],
+              ["Midfielder", "Midfielders.csv"],
+              ["Striker", "Strikers.csv"],
+              ["Winger", "Wingers.csv"]]
 
-Midfielders = play[play['Gen_Pos'] == "Midfielder"]
-Midfielders.to_csv("Midfielders.csv")
-
-Strikers = play[play['Gen_Pos'] == "Striker"]
-Strikers.to_csv("Strikers.csv")
-
-Wingers = play[play['Gen_Pos'] == "Winger"]
-Wingers.to_csv("Wingers.csv")
+for i in nuovi_dati:
+    saveData(i[0], i[1])
