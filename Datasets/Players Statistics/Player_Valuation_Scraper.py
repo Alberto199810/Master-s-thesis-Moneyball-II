@@ -1,6 +1,7 @@
 import pandas as pd
 import requests, re, ast
 import numpy as np
+from datetime import datetime
 
 data_play = pd.read_csv("df_players.csv", encoding='latin-1')
 data_keep = pd.read_csv("df_keepers.csv", encoding='latin-1')
@@ -14,15 +15,16 @@ def player_val_scraper(dataset):
     dataset['Player_Valuation'] = 0
 
     for i in range(len(dataset)):
-        anno = dataset['scouting_period'][i][-4:]
+        anno_iniz = dataset['scouting_period'][i][:4]
+        anno_fine = dataset['scouting_period'][i][-4:]
         r = requests.get(dataset['link_TRM'][i], headers = {'User-Agent':'Mozilla/5.0'})
         p = re.compile(r"'data':(.*)}\],")
         s = p.findall(r.text)[0]
         s = s.encode().decode('unicode_escape')
         data = ast.literal_eval(s)
         ww = []
-        for k in range(len(data)):
-            if data[k]['datum_mw'][-4:] == anno:
+        for k in range(len(data)): 
+            if datetime.strptime(data[k]['datum_mw'], "%b %d, %Y") >= datetime(int(anno_iniz), 7, 1, 0, 0) and datetime.strptime(data[k]['datum_mw'], "%b %d, %Y") <= datetime(int(anno_fine), 6, 30, 0, 0):
                 ww.append(data[k]['y'])
         if len(ww) != 0:
             dataset.loc[i,"Player_Valuation"] = np.mean(ww)

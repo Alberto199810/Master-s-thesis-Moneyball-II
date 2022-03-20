@@ -1,3 +1,4 @@
+#Let's initialize our script
 rm(list=ls()) 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
   
@@ -68,7 +69,12 @@ for (i in (1:numb)){
     players_data$Player = unique(new_player_FB$Player)
 
     #Now let's add some other important columns
-    players_data$Age = as.integer(ceiling(difftime(paste(substr(players_data[,'scouting_period'],6,9), "-6-10", sep=""), new_player_TRM$date_of_birth, units = "days")/365))
+    if (is.na(new_player_TRM$date_of_birth) == TRUE) {
+      year_born = 2022-as.integer(new_player_TRM$age)
+      players_data$Age = (as.integer(substr(players_data[,'scouting_period'],6,9))) - (2022-as.integer(new_player_TRM$age))
+    } else {
+      players_data$Age = as.integer(ceiling(difftime(paste(substr(players_data[,'scouting_period'],6,9), "-6-10", sep=""), new_player_TRM$date_of_birth, units = "days")/365))
+    }
     players_data$Height = new_player_TRM$height #Height
     players_data$Position = pos #Position in the field
     players_data$Foot = new_player_TRM$foot #Preferred foot
