@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-play = pd.read_csv("data_2/df_players.csv", encoding='latin-1')
+play = pd.read_csv("data_2/Source Dataset/df_players.csv", encoding='latin-1')
 
 posizioni = np.unique(play['Position'])
 

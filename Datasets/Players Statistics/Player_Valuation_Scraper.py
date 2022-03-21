@@ -6,8 +6,8 @@ from datetime import datetime
 data_play = pd.read_csv("data_2/Source Dataset/df_players.csv", encoding='latin-1')
 data_keep = pd.read_csv("data_2/Source Dataset/df_keepers.csv", encoding='latin-1')
 
-data_play = data_play.drop(['Unnamed: 0'], axis = 1)
-data_keep = data_keep.drop(['Unnamed: 0'], axis = 1)
+data_play = data_play.drop(['Unnamed: 0', 'X'], axis = 1)
+data_keep = data_keep.drop(['Unnamed: 0', 'X'], axis = 1)
 
 def player_val_scraper(dataset):
     
