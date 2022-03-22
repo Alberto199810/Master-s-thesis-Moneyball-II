@@ -26,6 +26,7 @@ df_players = data.frame()
 df_keepers = data.frame()
 
 for (i in (1:numb)){
+  
   tryCatch({
     
     print(i)
@@ -65,8 +66,6 @@ for (i in (1:numb)){
     
     #Insert Trasnfermarket link, it will be useful when we'll have to scrape valuation
     players_data$link_TRM = player_TRM
-    #Insert name of the player
-    players_data$Player = unique(new_player_FB$Player)
 
     #Now let's add some other important columns
     if (is.na(new_player_TRM$date_of_birth) == TRUE) {
@@ -76,6 +75,12 @@ for (i in (1:numb)){
       players_data$Age = as.integer(ceiling(difftime(paste(substr(players_data[,'scouting_period'],6,9), "-6-10", sep=""), new_player_TRM$date_of_birth, units = "days")/365))
     }
     players_data$Height = new_player_TRM$height #Height
+    players_data$Player_SN = unique(new_player_FB$Player)
+    if ('name_in_home_country' %in% names(new_player_TRM) == TRUE) {
+      players_data$Player_LN = new_player_TRM$name_in_home_country
+    } else {
+      players_data$Player_LN = unique(new_player_FB$Player)
+    }
     players_data$Position = pos #Position in the field
     players_data$Foot = new_player_TRM$foot #Preferred foot
 
@@ -97,7 +102,8 @@ for (i in (1:numb)){
 #Rename rows
 rownames(df_players) = 1:nrow(df_players)
 #Rearrange the dataset
-df_players <- df_players %>% relocate(Player,
+df_players <- df_players %>% relocate(Player_SN,
+                                      Player_LN,
                                       link_TRM,
                                       scouting_period,
                                       Age,
@@ -110,7 +116,8 @@ df_players <- df_players %>% relocate(Player,
 #Rename rows
 rownames(df_keepers) = 1:nrow(df_keepers)
 #Rearrange the dataset
-df_keepers <- df_keepers %>% relocate(Player,
+df_keepers <- df_keepers %>% relocate(Player_SN,
+                                      Player_LN,
                                       link_TRM,
                                       scouting_period,
                                       Age,
@@ -121,5 +128,5 @@ df_keepers <- df_keepers %>% relocate(Player,
                                       .before = Goals.Against)
 
 #Saving the two datasets
-write.csv(df_players,'df_players.csv')
+write.csv(df_players,'df_playersa.csv')
 write.csv(df_keepers,'df_keepers.csv')
