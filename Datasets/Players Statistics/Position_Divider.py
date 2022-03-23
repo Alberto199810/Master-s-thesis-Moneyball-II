@@ -33,7 +33,7 @@ def deleteCol(dataset):
 def saveData(position, final_name):
     dataset = play[play['Gen_Pos'] == position]
     dataset = deleteCol(dataset)
-    dataset.to_csv(final_name, index = False, encoding='latin-1')
+    dataset.to_csv(final_name, index = False, encoding='utf-8-sig')
     
 nuovi_dati = [["Centre-Back", "Centre_Backs.csv"],
               ["Full-Back", "Full_Backs.csv"],
