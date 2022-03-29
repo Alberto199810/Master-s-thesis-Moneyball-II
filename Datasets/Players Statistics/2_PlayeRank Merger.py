@@ -17,7 +17,6 @@ def movecol(data, column, position):
 ### STEP 1: Short Name merge
 ranking['longName'] = ranking['longName'].apply(lambda x: " ".join(x.split()))
 
-
 df_players2017 = df_players[df_players["scouting_period"] == "2017-2018"]
 df_players2017 = resetdrop(df_players2017)
 
@@ -42,7 +41,6 @@ Tot_Merge = SN_Merge.append(LN_Merge, ignore_index=True)
 Tot_Merge = resetdrop(Tot_Merge)
 
 ### STEP 4: Now, for the remaining ones, we merge on substrings
-
 miss3 = pd.DataFrame(ranking[~ranking['longName'].isin(Tot_Merge['longName'])].dropna())
 miss3 = resetdrop(miss3)
 
