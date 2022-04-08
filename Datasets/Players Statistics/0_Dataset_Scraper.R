@@ -128,5 +128,5 @@ df_keepers <- df_keepers %>% relocate(Player_SN,
                                       .before = Goals.Against)
 
 #Saving the two datasets
-write.csv(df_players,'df_players.csv')
-write.csv(df_keepers,'df_keepers.csv')
+write.csv(df_players,'df_players.csv', row.names=FALSE)
+write.csv(df_keepers,'df_keepers.csv', row.names=FALSE)
