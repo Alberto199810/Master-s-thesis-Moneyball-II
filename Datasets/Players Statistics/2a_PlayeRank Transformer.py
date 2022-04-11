@@ -30,12 +30,7 @@ df_2019_0 = funzref(df_2019_0, '2019-2020')
 df_2020_1 = funzref(df_2020_1, '2020-2021')
 
 #We import players.json in order to substitute Player Short Name with the Long one
-df_pl = pd.read_json("data_2/Source Dataset/players.json")
-df_pl['shortName'] = df_pl['shortName'].apply(lambda x: x.encode().decode('unicode_escape'))
-df_pl['firstName'] = df_pl['firstName'].apply(lambda x: x.encode().decode('unicode_escape'))
-df_pl['lastName'] = df_pl['lastName'].apply(lambda x: x.encode().decode('unicode_escape'))
-df_pl['longName'] = df_pl[['firstName', 'lastName']].agg(' '.join, axis=1)
-df_pl = df_pl[['longName','wyId']]
+df_pl = pd.read_json("data_2/Source Dataset/players_wyID.csv")
 
 #Now we merge the datasets together
 l = [df_2017_8, df_2018_9, df_2019_0, df_2020_1]
