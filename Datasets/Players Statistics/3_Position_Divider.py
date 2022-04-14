@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 
-play = pd.read_csv("data_2/Source Dataset/df_players.csv", encoding='latin-1')
+play = pd.read_csv("data_2/Final Datasets/Final_df_players.csv", encoding='latin-1')
+keep = pd.read_csv("data_2/Final Datasets/Final_df_keepers.csv", encoding='latin-1')
 
 posizioni = np.unique(play['Position'])
 
@@ -33,13 +34,14 @@ def deleteCol(dataset):
 def saveData(position, final_name):
     dataset = play[play['Gen_Pos'] == position]
     dataset = deleteCol(dataset)
-    dataset.to_csv(final_name, index = False, encoding='utf-8-sig')
+    dataset.to_csv("data_2/Final Datasets/Roles Division/{fname}".format(fname = final_name), index = False, encoding='utf-8-sig')
     
-nuovi_dati = [["Centre-Back", "Centre_Backs.csv"],
-              ["Full-Back", "Full_Backs.csv"],
-              ["Midfielder", "Midfielders.csv"],
-              ["Striker", "Strikers.csv"],
-              ["Winger", "Wingers.csv"]]
+nuovi_dati = [["Centre-Back", "1_Centre_Backs.csv"],
+              ["Full-Back", "2_Full_Backs.csv"],
+              ["Midfielder", "3_Midfielders.csv"],
+              ["Striker", "5_Strikers.csv"],
+              ["Winger", "4_Wingers.csv"]]
 
+keep.to_csv("data_2/Final Datasets/Roles Division/0_Keepers.csv", index = False, encoding='utf-8-sig')
 for i in nuovi_dati:
     saveData(i[0], i[1])

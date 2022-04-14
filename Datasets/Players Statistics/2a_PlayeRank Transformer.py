@@ -2,7 +2,7 @@ import pandas as pd
 import datetime
 
 #Import data shared by PlayeRank  
-df = pd.read_json("data_2/Source Dataset/playerank_export.json")
+df = pd.read_json("data_2/Source Dataset/playerank_export.json") #Removed
 
 #Get rid of hour and minute of the game, we're only interested in Year/Month/Day
 df['timestamp'] = df['timestamp'].apply(lambda x: x.date())

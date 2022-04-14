@@ -127,6 +127,9 @@ df_keepers <- df_keepers %>% relocate(Player_SN,
                                       Data_League,
                                       .before = Goals.Against)
 
+df_players <- df_players[!duplicated(as.list(df_players))]
+df_keepers <- df_keepers[!duplicated(as.list(df_keepers))]
+
 #Saving the two datasets
-write.csv(df_players,'df_players.csv', row.names=FALSE)
-write.csv(df_keepers,'df_keepers.csv', row.names=FALSE)
+write.csv(df_players,'data_2/Source Dataset/df_players.csv', row.names=FALSE)
+write.csv(df_keepers,'data_2/Source Dataset/df_keepers.csv', row.names=FALSE)

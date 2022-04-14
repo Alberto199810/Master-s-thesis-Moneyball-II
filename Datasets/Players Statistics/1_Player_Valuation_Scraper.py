@@ -46,5 +46,5 @@ data_keep.insert(2, "Player Valuation", column_to_move)
 data_play = data_play.drop(['link_TRM'], axis = 1)
 data_keep = data_keep.drop(['link_TRM'], axis = 1) 
 
-data_play.to_csv("df_players.csv", index = False, encoding='utf-8-sig')
-data_keep.to_csv("df_keepers.csv", index = False, encoding='utf-8-sig')
+data_play.to_csv("data_2/Source Dataset/df_players.csv", index = False, encoding='utf-8-sig')
+data_keep.to_csv("data_2/Source Dataset/df_keepers.csv", index = False, encoding='utf-8-sig')
