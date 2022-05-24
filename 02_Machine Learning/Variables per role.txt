@@ -1,0 +1,7 @@
+Variables per role
+Keepers, Goals.Against, Saves, Save., PSxG.SoT, PSxG.GA, Clean.Sheet.Percentage, Penalty.Kicks.Attempted, PSxG
+Centre-Backs, Shots.on.target, Pass.Completion....Medium., Pass.Completion....Long., Passes.Attempted..Head., Successful.Pressure.., Touches..Def.Pen., Touches..Att.Pen., Passes.Received.., Ball.Recoveries, Aerials.won, Aerials.lost, X..of.Aerials.Won
+Full-Backs, npxG, Pass.Completion.., Passes.Completed..Short., Pass.Completion....Short., Pass.Completion....Medium., Pass.Completion....Long., Touches..Att.Pen., Passes.Received.., Ball.Recoveries
+Midfielders, Non.Penalty.Goals, npxG, Shots.on.target.., Pass.Completion.., Pass.Completion....Short., Pass.Completion....Medium., GCA..PassLive., Successful.Pressure.., Touches..Att.Pen., Passes.Received..
+Wingers, Goals, Non.Penalty.Goals, xG, npxG, npxG.xA, Shots.Total, Shots.on.target, Shots.on.target.., Goals.Shot, Pass.Completion.., Pass.Completion....Short., Pass.Completion....Medium., Goal.Creating.Actions, GCA..PassLive., Touches..Att.Pen.
+Strikers, Goals, Assists, Non.Penalty.Goals, xG, npxG, npxG.xA, Shots.Total, Shots.on.target, Shots.on.target.., Goals.Shot, Pass.Completion.., Pass.Completion....Short., Pass.Completion....Medium., GCA..PassLive., Successful.Pressure.., Touches..Att.Pen., Pass.Targets, Fouls.Committed
