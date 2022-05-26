@@ -6,7 +6,7 @@ import pandas as pd
 
 players = pd.read_csv("C:/Users/alber/Desktop/Universita/Magistrale/Master-s-thesis-Moneyball-II/01_Datasets/Players Statistics/data_2/Final Datasets/Parametrized/Final_df_players_Parametrized.csv")
 keepers = pd.read_csv("C:/Users/alber/Desktop/Universita/Magistrale/Master-s-thesis-Moneyball-II//01_Datasets/Players Statistics/data_2/Final Datasets/Parametrized/Final_df_keepers_Parametrized.csv")
-winners = pd.read_csv('league_winners.csv')
+winners = pd.read_csv('0_league_winners.csv')
 
 player_tot = pd.concat([players[['Player_SN','Data_League','scouting_period', 'Position']], keepers[['Player_SN','Data_League','scouting_period', 'Position']]], ignore_index = True)
 
@@ -34,4 +34,4 @@ role_dictionary = {'Attacking Midfield' : new_roles[2],
 total2['Gen_Pos'] = total2['Position'].map(role_dictionary)
 total2 = total2.drop(['Position'], axis = 1)
 
-total2.to_csv('league_winners_ref.csv', index = False, encoding='utf-8-sig')
+total2.to_csv('1_league_winners_ref.csv', index = False, encoding='utf-8-sig')
