@@ -103,5 +103,4 @@ The below tables details the similarity coefficient, the percentage savings and 
 | 2020-2021    | Bundesliga  | 5.364341	  |  82.053054	 |  15.296018 |
 | 2018-2019    | Ligue 1     | 5.763644	  |  84.111916	 |  14.59353  |
 <br />
-<br />
 By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a 4.424397 similarity coefficient and a 74.68% save on the budget. Looking at absolute amounts, the built team costs $152,941,662 (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). 	
