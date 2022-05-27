@@ -65,6 +65,7 @@ Within the repository, you can see three main folders:
 1. **01_Datasets**
 2. **02_Machine Learning**
 3. **03_Data Analytics**
+4. **04_App**
 
 ### 01_Datasets
 In this folder, you can find the scripts I wrote to build my final dataset. Moreover, in the section [Leagues Comparison](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/tree/main/01_Datasets/Leagues%20Comparison) you can see the code I applied to standardize statistics across leagues (with a map of European Leagues)
@@ -91,7 +92,10 @@ Here, a preview with some screenshots of the three plots (various interactive fi
 In this folder, you can find the script I built to obtain the chosen variables per each role, applying the 7 different variable selection algorithms.
 
 ### 03_Data Analytics
-In this final folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the similarity coefficient of the low-cost team. 
+In this folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the similarity coefficient of the low-cost team. 
+
+### 04_App
+In this final folder, there is the script for building the app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/), but code had to be hidden because of the NDA with PlayeRank. 
 
 
 ## Results
