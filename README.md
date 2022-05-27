@@ -94,7 +94,7 @@ In this final folder, you can find both the scripts I wrote to obtain the winner
 
 ## Results
 The below tables details the similarity coefficient, the percentage savings and the trade off coefficient for the top 5 values obtained for trade off coefficient. Obviously, the higher is trade-off, the best is the combination of similarities of statistics and money we're saving.
-
+<br />
 | Season       | League  | Similarity Coeff.  | Savings | Trade Off |
 | :----------: | :----------:| :-----------------: | :----------: | :---------:|
 | 2020-2021    | Serie A     | 4.424397	  |  74.685169   |	16.880303 |
