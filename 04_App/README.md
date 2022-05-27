@@ -1,1 +1,1 @@
-Script for the app had to be hidden because of the NDA with PlayeRank
+Script for the app had to be hidden because of the NDA with PlayeRank.
