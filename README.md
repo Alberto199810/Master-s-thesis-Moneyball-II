@@ -97,11 +97,34 @@ The below tables details the similarity coefficient, the percentage savings and 
 <br />
 <br />
 | Season       | League  | Similarity Coeff.  | Savings | Trade Off |
-| :----------: | :----------:| :-----------------: | :----------: | :---------:|
-| 2020-2021    | Serie A     | 4.424397	  |  74.685169   |	16.880303 |
-| 2020-2021    | Ligue 1     | 4.480457	  |  75.257386   |	16.796812 |
-| 2019-2020    | Serie A     | 5.254009	  |  80.591059	 |  15.338965 |
-| 2020-2021    | Bundesliga  | 5.364341	  |  82.053054	 |  15.296018 |
-| 2018-2019    | Ligue 1     | 5.763644	  |  84.111916	 |  14.59353  |
+| :----------: | :----------:| :-----------------: | :-------: | :---------:|
+| 2020-2021    | Serie A     | 4.424397	  |  74.68%   |	16.880303 |
+| 2020-2021    | Ligue 1     | 4.480457	  |  75.25%   |	16.796812 |
+| 2019-2020    | Serie A     | 5.254009	  |  80.59%	 |  15.338965 |
+| 2020-2021    | Bundesliga  | 5.364341	  |  82.05%	 |  15.296018 |
+| 2018-2019    | Ligue 1     | 5.763644	  |  84.11%	 |  14.59353  |
 <br />
-By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a 4.424397 similarity coefficient and a 74.68% save on the budget. Looking at absolute amounts, the built team costs $152,941,662 (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). 	
+By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a 4.424397 similarity coefficient and a 74.68% save on the budget. Looking at absolute amounts, the built team costs €152,941,662 (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). In the following table, the low-cost team for Serie A, 2020/2021:
+<br />
+<br />
+|	Similarity |	Player	| Valuation |	Position |
+| :----------: | :-------------------:| :-----------: | :-----------: |
+|	4.293194 |	Claudio Bravo |	€1,000,000 |	Goalkeeper |
+|	3.511304	| Niklas Stark |	€10,750,000	| Centre-Back |
+|	3.824119	| Amir Rrahmani |	€13,333,333	| Centre-Back |
+|	4.419091	| Jordan Torunarigha |	€11,333,333	| Centre-Back |
+|	2.988132	| Bruno Peres	| €2,666,666	| Full-Back |
+|	3.917845	| Andrea Conti	| €7,166,666	| Full-Back |
+|	3.961353	| Maxime Busi	| €4,250,000	| Full-Back |
+|	5.423287	| Óscar De Marcos |	€2,333,333	| Full-Back |
+|	3.433324	| Roberto Gagliardini |	€14,666,666	| Midfielder |
+|	3.889508	| Jasmin Kurtič	| €2,833,333	| Midfielder |
+|	4.096985	| Otávio	| €7,000,000	| Midfielder |
+|	5.068749	| Marko Rog |	€11,666,666	| Midfielder |
+|	5.765697	| Ivan Ilić	| €5,333,333	| Midfielder |
+|	6.038868	| Danilo Cataldi |	€2,900,000 |	Midfielder |
+|	3.687857	| Patrik Schick	| €24,333,333	| Striker |
+|	5.250205	| Saša Kalajdžić	| €12,625,000	| Striker |
+|	6.221749	| Sehrou Guirassy	| €13,000,000	| Striker |
+|	3.847888	| Karim Bellarabi	| €5,750,000	| Winger |
+<br />
