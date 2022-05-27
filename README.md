@@ -108,14 +108,6 @@ By looking at the resulting value, it seems that the best trade-off is found in 
 <br />
 <br />
 
-| Season       | League  | Similarity Coeff.  | Savings | Trade Off |
-| :----------: | :----------:| :-----------------: | :-------: | :---------:|
-| 2020-2021    | Serie A     | 4.424397	  |  74.68%   |	16.880303 |
-| 2020-2021    | Ligue 1     | 4.480457	  |  75.25%   |	16.796812 |
-| 2019-2020    | Serie A     | 5.254009	  |  80.59%	 |  15.338965 |
-| 2020-2021    | Bundesliga  | 5.364341	  |  82.05%	 |  15.296018 |
-| 2018-2019    | Ligue 1     | 5.763644	  |  84.11%	 |  14.59353  |
-
 |	Similarity   |	Player              	| Valuation     |	Position      |
 | :------------: | :----------------------:| :--------------: | :--------------:|
 |	4.293194     |	Claudio Bravo        |	€1.000.000    |	Goalkeeper    |
