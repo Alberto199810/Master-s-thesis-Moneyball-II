@@ -21,8 +21,10 @@ This repository contains the code for my Master's Thesis, where I try to replica
 
 The idea behind the thesis is that we start from a dataset having as independent variables (our ```X```) all the statistics that you can find in the FBRef scouting report, and as dependent variable (our ```y```) the average PlayeRank score of a player for the entire season. The data I had were going from season 2017/2018 to season 2020/2021, for all the players that had a scouting report in FBRef in those season. For each and every single of these players, I had their average PlayeRank score, thanks to the data PlayeRank provided me. Unfortunately, the only dataset I can show you is the one with FBRef data, since PlayeRank data are protected by an NDA.
 
-Thanks to the two obtained datasets (one for Goalkeepers, one for moving players, since variables in the scouting report are different between Keepers and non-Keepers), what I decided to do was the following:
+Thanks to the two obtained datasets (one for Goalkeepers, one for moving players, since variables in the scouting report are different between Goalkeepers and non-Goalkeepers), what I decided to do was the following:
+
 Firstly, I split the data in 6 different sets:
+
 ```
 ● Goalkeepers
 ● Centre-Backs
@@ -33,6 +35,7 @@ Firstly, I split the data in 6 different sets:
 ```
 
 Then, to each of these sets, we apply 7 different Variable Selection Algorithms to select which FBRef statistics are the most important to predict PlayeRank score:
+
 ```
 ● BorutaPy
 ● Recursive Feature Elimination
