@@ -61,26 +61,29 @@ Within the repository, you can see three main folders:
 ### 01_Datasets
 In this folder, you can find the scripts I wrote to build my final dataset. Moreover, in the section [Leagues Comparison](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/tree/main/01_Datasets/Leagues%20Comparison) you can see the code I applied to standardize statistics across leagues (with a map of European Leagues)
 
-<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leghe_net.png" width="900">
+<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leghe_net.png" width="750">
 
 Moreover, just to have a view of the data, I created an interactive app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/) that will show you:
 ```
 ● A preview of PlayeRank data with a boxplot
-● A scatterplot with PlayeRank score on the x-axis and TransferMarkt valuation on the y-axis, with size of the scatter dependant on a "Likability" parameter (computed with PlayeRank index/TransferMarkt valuation)
+● A scatterplot with PlayeRank score on the x-axis and TransferMarkt valuation on the y-axis, with size of the scatter dependant 
+on a "Likability" parameter (computed with PlayeRank index/TransferMarkt valuation)
 ● A pitch where the best 11 players by the likability parameter (divided by role) are represented.
 ```
 
 Here, a preview with some screenshots of the three plots:
 
-<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/boxplot.png" width="900">
-<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/scatterplot.png" width="900">
-<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/11 lik.png" width="900">
+<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/boxplot.png" width="750">
+
+<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/scatterplot.png" width="750">
+
+<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/11 lik.png" width="750">
 
 ### 02_Machine Learning
 In this folder, you can find the script I built to obtain the chosen variables per each role, applying the 7 different variable selection algorithms.
 
 ### 03_Data Analytics
-In this final folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the similarity coefficient of the low-cost team. By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a 4.424397 similarity coefficienty and a 74.68% save on the budget. Looking at absolute amounts, the built team costs $152,941,662 (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). 	
+In this final folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the similarity coefficient of the low-cost team. 
 
 
 ## Results
@@ -95,3 +98,4 @@ The below tables details the similarity coefficient, the percentage savings and 
 | 2018-2019    | Ligue 1     | 5.763644	  |  84.111916	 |  14.59353  |
 <br />
 <br />
+By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a 4.424397 similarity coefficient and a 74.68% save on the budget. Looking at absolute amounts, the built team costs $152,941,662 (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). 	
