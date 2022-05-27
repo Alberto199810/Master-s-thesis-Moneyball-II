@@ -60,7 +60,7 @@ Within the repository, you can see three main folders:
 
 ### 01_Datasets
 In this folder, you can find the scripts I wrote to build my final dataset. Moreover, in the section [Leagues Comparison](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/tree/main/01_Datasets/Leagues%20Comparison) you can see the code I applied to standardize statistics across leagues (with a map of European Leagues)
-<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leagues_network.png" width="600">
+<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leghe_net.png" width="900">
 Moreover, just to have a view of the data, I created an interactive app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/) that will show you:
 ```
 ● A preview of PlayeRank data with a boxplot
@@ -69,9 +69,10 @@ Moreover, just to have a view of the data, I created an interactive app that can
 ```
 
 Here, a preview with some screenshots of the three plots:
-<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/boxplot.png" width="600">
-<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/scatterplot.png" width="600">
-<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/11 lik.png" width="600">
+
+<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/boxplot.png" width="900">
+<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/scatterplot.png" width="900">
+<img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/11 lik.png" width="900">
 
 ### 02_Machine Learning
 In this folder, you can find the script I built to obtain the chosen variables per each role, applying the 7 different variable selection algorithms.
@@ -81,7 +82,8 @@ In this final folder, you can find both the scripts I wrote to obtain the winner
 
 
 ## Results
-The below tables details the RMSE & R&#x00B2; score for each of the models that we ran. The score presented is the that of the respective best version of that model.
+The below tables details the similarity coefficient, the percentage savings and the trade off coefficient for the top 5 values obtained for trade off coefficient. Obviously, the higher is trade-off, the best is the combination of similarities of statistics and money we're saving.
+
 | Season       | League  | Similarity Coeff.  | Savings | Trade Off |
 | :----------: | :----------:| :-----------------: | :----------: | :---------:|
 | 2020-2021    | Serie A     | 4.424397	  |  74.685169   |	16.880303 |
