@@ -72,7 +72,16 @@ In this folder, you can find the scripts I wrote to build my final dataset. More
 
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leghe_net.png" width="750">
 
-Moreover, just to have a view of the data, I created an interactive app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/) that will show you:
+### 02_Machine Learning
+In this folder, you can find the script I built to obtain the chosen variables per each role, applying the 7 different variable selection algorithms.
+
+### 03_Data Analytics
+In this folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the similarity coefficient of the low-cost team. 
+
+### 04_App
+In this final folder, there is the script for building the app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/). Code can be found in the notebook "bqplot.ipynb". Then, [voila](https://github.com/voila-dashboards/voila) and [Heroku](https://www.heroku.com/what) were used for the deploy.
+This app was created just to have a first view of the data, and it will show you:
+
 ```
 ● A preview of PlayeRank data with a boxplot
 ● A scatterplot with PlayeRank score on the x-axis and TransferMarkt valuation on the y-axis, with size of 
@@ -87,15 +96,6 @@ Here, a preview with some screenshots of the three plots (various interactive fi
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/scatterplot.png" width="750">
 
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/11 lik.png" width="750">
-
-### 02_Machine Learning
-In this folder, you can find the script I built to obtain the chosen variables per each role, applying the 7 different variable selection algorithms.
-
-### 03_Data Analytics
-In this folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the similarity coefficient of the low-cost team. 
-
-### 04_App
-In this final folder, there is the script for building the app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/). Code can be found in the notebook "bqplot.ipynb". Then, [voila](https://github.com/voila-dashboards/voila) and [Heroku](https://www.heroku.com/what) were used for the deploy. 
 
 
 ## Results
