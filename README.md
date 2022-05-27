@@ -80,7 +80,8 @@ In this folder, you can find both the scripts I wrote to obtain the winners data
 
 ### 04_App
 In this final folder, there is the script for building the app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/). Code can be found in the notebook "bqplot.ipynb". Then, [voila](https://github.com/voila-dashboards/voila) and [Heroku](https://www.heroku.com/what) were used for the deploy.
-This app was created just to have a first view of the data, and it will show you:
+
+This app was created just to have a first view of PlayeRank data, mixed with TransferMarkt valuation, and it will show you:
 
 ```
 ● A preview of PlayeRank data with a boxplot
