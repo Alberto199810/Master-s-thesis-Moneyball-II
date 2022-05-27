@@ -61,6 +61,7 @@ Within the repository, you can see three main folders:
 ### 01_Datasets
 In this folder, you can find the scripts I wrote to build my final dataset. Moreover, in the section [Leagues Comparison](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/tree/main/01_Datasets/Leagues%20Comparison) you can see the code I applied to standardize statistics across leagues (with a map of European Leagues)
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leghe_net.png" width="900">
+
 Moreover, just to have a view of the data, I created an interactive app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/) that will show you:
 ```
 ● A preview of PlayeRank data with a boxplot
