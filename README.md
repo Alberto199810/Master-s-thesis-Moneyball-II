@@ -1,5 +1,5 @@
 # Statistics and Sport: The Moneyball idea applied to Football world
-<br />
+
 
 ## Alberto Allegri, Bocconi University, Master's Thesis in Data Science & Business Analytics
 
