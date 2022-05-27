@@ -106,6 +106,7 @@ The below tables details the similarity coefficient, the percentage savings and 
 <br />
 By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a 4.424397 similarity coefficient and a 74.68% save on the budget. Looking at absolute amounts, the built team costs €152.941.662 (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). In the following table, the low-cost team for Serie A, 2020/2021: <br /><br />
 
+
 |	Similarity   |	Player              	| Valuation     |	Position      |
 | :------------: | :----------------------:| :--------------: | :--------------:|
 |	4.293194     |	Claudio Bravo        |	€1.000.000    |	Goalkeeper    |
@@ -126,4 +127,3 @@ By looking at the resulting value, it seems that the best trade-off is found in 
 |	5.250205	    | Saša Kalajdžić	      | €12.625.000	  | Striker       |
 |	6.221749	    | Sehrou Guirassy	     | €13.000.000	  | Striker       |
 |	3.847888	    | Karim Bellarabi	     | €5.750.000   	| Winger        |
-<br />
