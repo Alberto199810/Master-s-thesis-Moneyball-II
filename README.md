@@ -108,23 +108,23 @@ By looking at the resulting value, it seems that the best trade-off is found in 
 <br />
 <br />
 |	Similarity   |	Player              	| Valuation     |	Position      |
-| :------------: | :----------------------:| :--------------: | :--------------: |
-|	4.293194     |	Claudio Bravo        |	€1,000,000    |	Goalkeeper    |
-|	3.511304	    | Niklas Stark         |	€10,750,000  	| Centre-Back   |
-|	3.824119	    | Amir Rrahmani        |	€13,333,333  	| Centre-Back   |
-|	4.419091    	| Jordan Torunarigha   |	€11,333,333  	| Centre-Back   |
-|	2.988132    	| Bruno Peres         	| €2,666,666	   | Full-Back     |
-|	3.917845    	| Andrea Conti        	| €7,166,666	   | Full-Back     |
-|	3.961353    	| Maxime Busi         	| €4,250,000	   | Full-Back     |   
-|	5.423287	    | Óscar De Marcos      |	€2,333,333	   | Full-Back     |
-|	3.433324	    | Roberto Gagliardini  |	€14,666,666  	| Midfielder    |
-|	3.889508	    | Jasmin Kurtič	       | €2,833,333    | Midfielder    |
-|	4.096985    	| Otávio              	| €7,000,000	   | Midfielder    |
-|	5.068749    	| Marko Rog            |	€11,666,666  	| Midfielder    |
-|	5.765697	    | Ivan Ilić	           | €5,333,333   	| Midfielder    |
-|	6.038868	    | Danilo Cataldi       |	€2,900,000    |	Midfielder    |
-|	3.687857	    | Patrik Schick	       | €24,333,333	  | Striker       |
-|	5.250205	    | Saša Kalajdžić	      | €12,625,000	  | Striker       |
-|	6.221749	    | Sehrou Guirassy	     | €13,000,000	  | Striker       |
-|	3.847888	    | Karim Bellarabi	     | €5,750,000   	| Winger        |
+| :------------: | :----------------------:| :--------------: | :--------------:|
+|	4.293194     |	Claudio Bravo        |	€1.000.000    |	Goalkeeper    |
+|	3.511304	    | Niklas Stark         |	€10.750.000  	| Centre-Back   |
+|	3.824119	    | Amir Rrahmani        |	€13.333.333  	| Centre-Back   |
+|	4.419091    	| Jordan Torunarigha   |	€11.333.333  	| Centre-Back   |
+|	2.988132    	| Bruno Peres         	| €2.666.666	   | Full-Back     |
+|	3.917845    	| Andrea Conti        	| €7.166.666	   | Full-Back     |
+|	3.961353    	| Maxime Busi         	| €4.250.000	   | Full-Back     |   
+|	5.423287	    | Óscar De Marcos      |	€2.333.333	   | Full-Back     |
+|	3.433324	    | Roberto Gagliardini  |	€14.666.666  	| Midfielder    |
+|	3.889508	    | Jasmin Kurtič	       | €2.833.333    | Midfielder    |
+|	4.096985    	| Otávio              	| €7.000.000	   | Midfielder    |
+|	5.068749    	| Marko Rog            |	€11.666.666  	| Midfielder    |
+|	5.765697	    | Ivan Ilić	           | €5.333.333   	| Midfielder    |
+|	6.038868	    | Danilo Cataldi       |	€2.900.000    |	Midfielder    |
+|	3.687857	    | Patrik Schick	       | €24.333.333	  | Striker       |
+|	5.250205	    | Saša Kalajdžić	      | €12.625.000	  | Striker       |
+|	6.221749	    | Sehrou Guirassy	     | €13.000.000	  | Striker       |
+|	3.847888	    | Karim Bellarabi	     | €5.750.000   	| Winger        |
 <br />
