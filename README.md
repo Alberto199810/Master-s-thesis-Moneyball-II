@@ -108,7 +108,7 @@ By looking at the resulting value, it seems that the best trade-off is found in 
 <br />
 <br />
 |	Similarity   |	Player              	| Valuation     |	Position      |
-| :----------: | :-------------------:| :-----------: | :-----------: |
+| :------------: | :----------------------:| :--------------: | :--------------: |
 |	4.293194     |	Claudio Bravo        |	€1,000,000    |	Goalkeeper    |
 |	3.511304	    | Niklas Stark         |	€10,750,000  	| Centre-Back   |
 |	3.824119	    | Amir Rrahmani        |	€13,333,333  	| Centre-Back   |
