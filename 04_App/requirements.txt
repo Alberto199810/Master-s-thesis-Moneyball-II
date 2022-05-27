@@ -1,0 +1,9 @@
+voila
+voila-material
+numpy
+pandas
+plotly
+ipywidgets
+Pillow
+requests
+flask
