@@ -77,7 +77,7 @@ on a "Likability" parameter (computed with PlayeRank index/TransferMarkt valuati
 ● A pitch where the best 11 players by the likability parameter (divided by role) are represented.
 ```
 
-Here, a preview with some screenshots of the three plots:
+Here, a preview with some screenshots of the three plots (various interactive filters can be applied to plots):
 
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/boxplot.png" width="750">
 
