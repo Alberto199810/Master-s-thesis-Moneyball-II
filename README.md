@@ -1,6 +1,6 @@
 # Statistics and Sport: The Moneyball idea applied to Football world
 
-### Alberto Allegri, Bocconi University, Master's Thesis in Data Science & Business Analytics
+## Alberto Allegri, Bocconi University, Master's Thesis in Data Science & Business Analytics
 
 **Tech Stack:**<br />
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
@@ -11,11 +11,13 @@
 1. [General Info](#general-info)
 2. [Methodology](#methodology)
 3. [File Structure](#file-structure)
+4. [Results](#results)
 
 
 ## General Info
 
 This repository contains the code for my Master's Thesis, where I try to replicate the moneyball idea (building a team capable of winning the league, but with a restricted budget) using both football statistics coming from [FBRef Scouting Reports](https://fbref.com/en/players/70d74ece/scout/365_euro/Karim-Benzema-Scouting-Report), [Transfermarkt](https://www.transfermarkt.com/) and [PlayeRank](https://github.com/mesosbrodleto/playerank) data together. If you want a visualization of aggregated PlayeRank data, you can visit the app I built under this link: https://alberto-allegri-moneyball2.herokuapp.com/.
+
 
 ## Methodology
 
@@ -46,13 +48,14 @@ Then, to each of these sets, we apply 7 different Variable Selection Algorithms 
 ● Target Mean Performance
 ```
 
-Once the 7 different algorithms were applied, if a variable was selected by ```at least 5 out of 7``` algorithms, then it was included in my final choice.
+Once the 7 different algorithms were applied, if a variable was selected by ```at least 5 out of 7``` algorithms, then it was included in my final choice (final choice can be seen at this [link](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/blob/main/02_Machine%20Learning/Variables%20per%20role.txt).
 
 Finally, when the variables were selected, I collected the players that won the league from season 2017/2018 to season 2020/2021 in all the top-5 European Leagues (csv can be found at this [link](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/blob/main/03_Data%20Analytics/Winners/1_league_winners_ref.csv)). Then, I calculated the mean values of the important variables within each role, and, by using the [NORM](https://jermwatt.github.io/machine_learning_refined/notes/16_Linear_algebra/16_5_Norms.html#:~:text=A%20norm%20is%20a%20kind,living%20in%20the%20same%20space.) function, I calculated which observations in my dataset where the closest to the average statistics of the players who actually won the league. But, to this whole reasoning, I applied a restriction: the selected players had to have a Transfermarkt evaluation that was 1/x (X could be selected, basing on how much money we wanted to save) the average value of the players within a certain role in the winning team.
 
 The final result is a full team that is actually costing way less the total cost of the winning team, but that actually had very close performances for the most important statistics to evaluate the total performance of a player in his role!
 
 To retrieve the team for a precise league/season we just have to run low_cost_winners(season, league, factor_to_save).
+
 
 ## File Structure
 
