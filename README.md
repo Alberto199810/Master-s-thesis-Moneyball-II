@@ -112,7 +112,9 @@ The below tables details the similarity coefficient, the percentage savings and 
 | 2018-2019    | Ligue 1     | 5.763644	  |  84.11%	 |  14.59353  |
 
 
-By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a **4.424397** similarity coefficient and a **74.68%** save on the budget. Looking at absolute amounts, the built team costs **€152.941.662** (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). If we look at the two coefficients we built along the process (Likability of the signing, based on PlayeRank score/Player Valuation, and their average PlayeRank index), we discover that the two teams are very similar in the total sum of the PlayeRank score (**2.96** for the low-cost players, **3.02** for the winners), but low-cost players have a way higher total likability (**957.38** vs **851.27**). In the following table, the low-cost team for Serie A, 2020/2021: <br />
+By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a **4.424397** similarity coefficient and a **74.68%** save on the budget. Looking at absolute amounts, the built team costs **€152.941.662** (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). 
+
+If we look at the two coefficients we built along the process (Likability of the signing, based on PlayeRank score/Player Valuation, and their average PlayeRank index), we discover that the two teams are very similar in the total sum of the PlayeRank score (**2.96** for the low-cost players, **3.02** for the winners), but low-cost players have a way higher total likability (**957.38** vs **851.27**). In the following table, the low-cost team for Serie A, 2020/2021: <br />
 
 
 |	Similarity   |	Player              	| Valuation     |	Position      |
