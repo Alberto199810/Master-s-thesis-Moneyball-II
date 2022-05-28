@@ -23,7 +23,7 @@ If you want a visualization of aggregated PlayeRank data, you can visit the app 
 
 ## Methodology
 
-The idea behind the thesis is that we start from a dataset having as independent variables (our ```X```) all the statistics that you can find in the FBRef scouting report, and as dependent variable (our ```y```) the average PlayeRank score of a player for the entire season. The data I had were going from season 2017/2018 to season 2020/2021, for all the players that had a scouting report in FBRef in those season. For each and every single of these players, I had their average PlayeRank score, thanks to the data PlayeRank provided me. Unfortunately, the only dataset I can show you is the one with FBRef data, since PlayeRank data are protected by an NDA.
+The idea behind the thesis is that we start from a dataset having as independent variables (our ```X```) all the statistics that you can find in the FBRef scouting report, and as dependent variable (our ```y```) the average PlayeRank score of a player for the entire season. The data I had was going from season 2017/2018 to season 2020/2021, for all the players that had a scouting report in FBRef in those season. For each and every single of these players, I had their average PlayeRank score, thanks to the data PlayeRank provided me. Unfortunately, the only dataset I can show you is the one with FBRef data, since PlayeRank data are protected by an NDA.
 
 Thanks to the two obtained datasets (one for Goalkeepers, one for moving players, since variables in the scouting report are different between Goalkeepers and non-Goalkeepers), what I decided to do was the following:
 
@@ -52,7 +52,7 @@ Then, to each of these sets, we apply 7 different Variable Selection Algorithms 
 
 Once the 7 different algorithms were applied, if a variable was selected by ```at least 5 out of 7``` algorithms, then it was included in my final choice (final choice can be seen at this [link](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/blob/main/02_Machine%20Learning/Variables%20per%20role.txt).
 
-Finally, when the variables were selected, I collected the players that won the league from season 2017/2018 to season 2020/2021 in all the top-5 European Leagues (csv can be found at this [link](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/blob/main/03_Data%20Analytics/Winners/1_league_winners_ref.csv)). Then, I calculated the mean values of the important variables within each role, and, by using the [NORM](https://jermwatt.github.io/machine_learning_refined/notes/16_Linear_algebra/16_5_Norms.html#:~:text=A%20norm%20is%20a%20kind,living%20in%20the%20same%20space.) function, I calculated which observations in my dataset where the closest to the average statistics of the players who actually won the league. But, to this whole reasoning, I applied a restriction: the selected players had to have a Transfermarkt evaluation that was 1/x (X could be selected, basing on how much money we wanted to save) the average value of the players within a certain role in the winning team.
+Finally, when the variables were selected, I collected the players that won the league from season 2017/2018 to season 2020/2021 in all the top-5 European Leagues (csv can be found at this [link](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/blob/main/03_Data%20Analytics/Winners/1_league_winners_ref.csv)). Then, I calculated the mean values of the important variables within each role, and, by using the [NORM](https://jermwatt.github.io/machine_learning_refined/notes/16_Linear_algebra/16_5_Norms.html#:~:text=A%20norm%20is%20a%20kind,living%20in%20the%20same%20space.) function, I calculated which observations in my dataset were the closest to the average statistics of the players who actually won the league. But, to this whole reasoning, I applied a restriction: the selected players had to have a Transfermarkt evaluation that was 1/x (X could be selected, basing on how much money we wanted to save) the average value of the players within a certain role in the winning team.
 
 The final result is a full team that is actually costing way less the total cost of the winning team, but that actually had very close performances for the most important statistics to evaluate the total performance of a player in his role!
 
@@ -72,11 +72,21 @@ In this folder, you can find the scripts I wrote to build my final dataset. More
 
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leghe_net.png" width="750">
 
-Moreover, just to have a view of the data, I created an interactive app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/) that will show you:
+### 02_Machine Learning
+In this folder, you can find the script I built to obtain the chosen variables per each role, applying the 7 different variable selection algorithms.
+
+### 03_Data Analytics
+In this folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the similarity coefficient of the low-cost team. 
+
+### 04_App
+In this final folder, there is the script for building the app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/). Code can be found in the notebook "bqplot.ipynb". Then, [voila](https://github.com/voila-dashboards/voila) and [Heroku](https://www.heroku.com/what) were used for the deploy.
+
+This app was created just to have a first view of PlayeRank data, mixed with TransferMarkt valuation, and it will show you:
+
 ```
 ● A preview of PlayeRank data with a boxplot
-● A scatterplot with PlayeRank score on the x-axis and TransferMarkt valuation on the y-axis, with size of the scatter dependant 
-on a "Likability" parameter (computed with PlayeRank index/TransferMarkt valuation)
+● A scatterplot with PlayeRank score on the x-axis and TransferMarkt valuation on the y-axis, with size of 
+  the scatter dependant on a "Likability" parameter (computed with PlayeRank index/TransferMarkt valuation)
 ● A pitch where the best 11 players by the likability parameter (divided by role) are represented.
 ```
 
@@ -87,15 +97,6 @@ Here, a preview with some screenshots of the three plots (various interactive fi
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/scatterplot.png" width="750">
 
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/11 lik.png" width="750">
-
-### 02_Machine Learning
-In this folder, you can find the script I built to obtain the chosen variables per each role, applying the 7 different variable selection algorithms.
-
-### 03_Data Analytics
-In this folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the similarity coefficient of the low-cost team. 
-
-### 04_App
-In this final folder, there is the script for building the app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/), but code had to be hidden because of the NDA with PlayeRank. 
 
 
 ## Results
@@ -111,7 +112,9 @@ The below tables details the similarity coefficient, the percentage savings and 
 | 2018-2019    | Ligue 1     | 5.763644	  |  84.11%	 |  14.59353  |
 
 
-By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a 4.424397 similarity coefficient and a 74.68% save on the budget. Looking at absolute amounts, the built team costs €152.941.662 (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). In the following table, the low-cost team for Serie A, 2020/2021: <br />
+By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a **4.424397** similarity coefficient and a **74.68%** save on the budget. Looking at absolute amounts, the built team costs **€152.941.662** (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). 
+
+If we look at the two coefficients we built along the process (Likability of the signing, based on PlayeRank score/Player Valuation, and their average PlayeRank index), we discover that the two teams are very similar in the total sum of the PlayeRank score (**2.96** for the low-cost players, **3.02** for the winners), but low-cost players have a way higher total likability (**957.38** vs **851.27**). In the following table, the low-cost team for Serie A, 2020/2021: <br />
 
 
 |	Similarity   |	Player              	| Valuation     |	Position      |
