@@ -114,7 +114,7 @@ The rest of the scripts (the one in [Player Statistics](https://github.com/Alber
 In this folder, you can find the script I built to obtain the chosen variables per each role, applying the 7 different variable selection algorithms.
 
 ### 03_Data Analytics
-In this folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the similarity coefficient of the low-cost team. 
+In this folder, you can find both the scripts I wrote to obtain the winners dataset and the jupyter notebook containing the function to get the most similar players to the ones that won the league. Moreover, we built a "Trade-off" value by dividing the Percentage of Money we're saving with the **similarity coefficient** (Similarity is measured as the *distance* from statistics of a player to the average statistics of league winners, computed with norm function) of the low-cost team. 
 
 ### 04_App
 In this final folder, there is the script for building the app that can be found at this [link](https://alberto-allegri-moneyball2.herokuapp.com/). Code can be found in the notebook "bqplot.ipynb". Then, [voila](https://github.com/voila-dashboards/voila) and [Heroku](https://www.heroku.com/what) were used for the deploy.
