@@ -177,4 +177,4 @@ If we look at two of the coefficients we have in our dataset (Likability of the 
 |	3.847888	    | Karim Bellarabi	     | €5.750.000   	| Winger        |
 
 ## Credits
-This repository is by Alberto Allegri (alberto.allegri@studbocconi.com) as part of the Master's Thesis in Data Science & Business Analytics at Boccony University, with the supervision of professor Carlo Ambrogio Favero.
+This repository is by Alberto Allegri (alberto.allegri@studbocconi.com) as part of the Master's Thesis in Data Science & Business Analytics at Boccony University, with the supervision of professor [Carlo Ambrogio Favero](https://didattica.unibocconi.eu/myigier/index.php?IdUte=48917&idr=1753&lingua=eng).
