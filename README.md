@@ -89,14 +89,14 @@ Given three matches between a Serie A team and a Ligue 1 team with these results
 | Serie A   |  0  |  3  |   
 | Ligue 1   |  8  |  0  |  
 
-Where Ci,j is the difference with which league j has beaten league i in the matches that j won against i, while Cj,i is the difference with which league i has beaten league j in the matches that i won against j. Then, to standardize everything and make it consistent, I divided both Ci,j and Cj,i by (Ci,j + Cj,i). So the resulting matrix, in our case, was:
+Where C<sub>i,j</sub> is the difference with which league j has beaten league i in the matches that j won against i, while C<sub>j,i</sub> is the difference with which league i has beaten league j in the matches that i won against j. Then, to standardize everything and make it consistent, I divided both C<sub>i,j</sub> and <sub>Cj,i</sub> by (C<sub>i,j</sub> + <sub>Cj,i</sub>). So the resulting matrix, in our case, was:
 
 |           | Serie A  | Ligue 1  | 
 | :-------: | :-------:| :-------: |
 | Serie A   |  0  |  0.27  |   
 | Ligue 1   |  0.73  |  0  |
 
-By doing like this, we could create a directed graph where the weight of the directed link from node i and node j was equal to Ci,j (in our case, link **FROM** Ligue 1 **TO** Serie A had a weight of **0.73**, while link **FROM** Serie A **TO** Ligue 1 had a weight of **0.27**), meaning that a link of a certain weight was generated to represent how league i is worse than league j. 
+By doing like this, we could create a directed graph where the weight of the directed link from node i to node j was equal to C<sub>i,j</sub> (in our case, link **FROM** Ligue 1 **TO** Serie A had a weight of **0.73**, while link **FROM** Serie A **TO** Ligue 1 had a weight of **0.27**), meaning that a link of a certain weight from node i to node j is generated to represent how league i **is worse** than league j. 
 
 Finally, to represent everything, the node size in the plot is depending on the average degree of the in-edges. That's how I built the network, with node size representing how ```difficult``` (and for this reason *powerful*) a certain league is. Then, other calculation was applied to obtain 5 final ```difficulty coefficients```, represented in the following table:
 
@@ -180,3 +180,6 @@ If we look at two of the coefficients we have in our dataset (Likability of the 
 |	5.250205	    | Saša Kalajdžić	      | €12.625.000	  | Striker       |
 |	6.221749	    | Sehrou Guirassy	     | €13.000.000	  | Striker       |
 |	3.847888	    | Karim Bellarabi	     | €5.750.000   	| Winger        |
+
+## Credits
+This repository is by Alberto Allegri (alberto.allegri@studbocconi.com) as part of the Master's Thesis in Data Science & Business Analytics at Boccony University, with the supervision of professor Carlo Ambrogio Favero.
