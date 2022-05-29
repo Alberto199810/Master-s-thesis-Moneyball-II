@@ -78,6 +78,24 @@ In this folder, you can find the scripts I wrote to build my final dataset. More
 
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leghe_net.png" width="750">
 
+How was this computed? I took the data regarding all European matches in the last 12 years (from 2010 to 2022), and I generated a contaxt matrix, where:
+
+Given three matches between a Serie A team and a Ligue 1 team with these results (Serie A 2-1 Ligue 1, Ligue 1 3-0 Serie A, Serie A 6-2 Ligue 1, Ligue 1 1-4 Serie A), the starting matrix was:
+
+|           | Serie A  | Ligue 1  | 
+| :-------: | :-------:| :-------: |
+| Serie A   |  0  |  3  |   
+| Ligue 1   |  8  |  0  |  
+
+Where Ci,j is the difference with which league j has beaten league i in the matches that j won against i, while Cj,i is the difference with which league i has beaten league j in the matches that i won against j. Then, to standardize everything and make it consistent, I divided both Ci,j and Cj,i by (Ci,j + Cj,i). So the resulting matrix, in our case, was:
+
+|           | Serie A  | Ligue 1  | 
+| :-------: | :-------:| :-------: |
+| Serie A   |  0  |  0.27  |   
+| Ligue 1   |  0.73  |  0  |
+
+By doing like this, we could create a directed graph where the weight between node i and node j was equal to Ci,j, meaning that a link of a certain weight was generated to represent how league i was worse than league j. Finally, node size is depending to the average degree of the in-edges. That's how I built the network, with node size representing how ```difficult``` (and for this reason powerful) a league is.
+
 ### 02_Machine Learning
 In this folder, you can find the script I built to obtain the chosen variables per each role, applying the 7 different variable selection algorithms.
 
