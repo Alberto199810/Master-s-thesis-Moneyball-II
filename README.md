@@ -76,8 +76,10 @@ Within the repository, you can see three main folders:
 ### 01_Datasets
 In this folder, you can find the scripts I wrote to build my final dataset. Moreover, in the section [Leagues Comparison](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/tree/main/01_Datasets/Leagues%20Comparison) you can see the code I applied to standardize statistics across leagues (with a map of European Leagues)
 
+<p align="center">
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leghe_net.png" class="aligncenter" width="650">
-
+</p>
+  
 How was this computed? I took the data regarding all European matches in the last 12 years (from 2010 to 2022), and I generated a contact matrix, with this reasoning:
 
 Given three matches between a Serie A team and a Ligue 1 team with these results (Serie A 2-1 Ligue 1, Ligue 1 3-0 Serie A, Serie A 6-2 Ligue 1, Ligue 1 1-4 Serie A), the starting matrix was:
@@ -128,12 +130,17 @@ This app was created just to have a first view of PlayeRank data, mixed with Tra
 
 Here, a preview with some screenshots of the three plots (various interactive filters can be applied to plots):
 
+<p align="center">
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/boxplot.png" class="aligncenter" width="750">
-
+</p>
+  
+<p align="center">
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/scatterplot.png" class="aligncenter" width="750">
+</p>
 
+<p align="center">
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/11 lik.png" class="aligncenter" width="750">
-
+</p>
 
 ## Results
 The below tables details the similarity coefficient, the percentage savings and the trade off coefficient for the top 5 values obtained for trade off coefficient. Obviously, the higher is trade-off, the best is the combination of similarities of statistics and money we're saving. <br />
