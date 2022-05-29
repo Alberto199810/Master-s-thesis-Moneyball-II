@@ -1,3 +1,7 @@
+<a href="[https://alberto-allegri-moneyball2.herokuapp.com/]"><img src="./04_App/noteboooks/pict.png" align="center"></a>
+
+<br />
+
 # Statistics and Sport: The Moneyball idea applied to Football world
 
 ### Alberto Allegri, Bocconi University, Master's Thesis in Data Science & Business Analytics
