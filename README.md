@@ -16,7 +16,7 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Methodology](#methodology)
-3. [File Structure](#file-structure)
+3. [Repository Structure](#repository-structure)
 4. [Results](#results)
 5. [Credits](#credits)
 
@@ -65,7 +65,7 @@ The final result is a full team that is actually costing way less the total cost
 To retrieve the team for a precise league/season we just have to run low_cost_winners(season, league, factor_to_save).
 
 
-## File Structure
+## Repository Structure
 
 Within the repository, you can see four main folders:
 1. **01_Datasets**
