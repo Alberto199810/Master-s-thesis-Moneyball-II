@@ -67,7 +67,7 @@ To retrieve the team for a precise league/season we just have to run low_cost_wi
 
 ## File Structure
 
-Within the repository, you can see three main folders:
+Within the repository, you can see four main folders:
 1. **01_Datasets**
 2. **02_Machine Learning**
 3. **03_Data Analytics**
@@ -96,7 +96,7 @@ Where Ci,j is the difference with which league j has beaten league i in the matc
 | Serie A   |  0  |  0.27  |   
 | Ligue 1   |  0.73  |  0  |
 
-By doing like this, we could create a directed graph where the weight between node i and node j was equal to Ci,j (in our case, link **FROM** Ligue 1 **TO** Serie A had a weight of **0.27**, while link **FROM** Serie A **TO** Ligue 1 had a weight of **0.73**), meaning that a link of a certain weight was generated to represent how league i is worse than league j. 
+By doing like this, we could create a directed graph where the weight of the directed link from node i and node j was equal to Ci,j (in our case, link **FROM** Ligue 1 **TO** Serie A had a weight of **0.73**, while link **FROM** Serie A **TO** Ligue 1 had a weight of **0.27**), meaning that a link of a certain weight was generated to represent how league i is worse than league j. 
 
 Finally, to represent everything, the node size in the plot is depending on the average degree of the in-edges. That's how I built the network, with node size representing how ```difficult``` (and for this reason *powerful*) a certain league is. Then, other calculation was applied to obtain 5 final ```difficulty coefficients```, represented in the following table:
 
@@ -155,9 +155,9 @@ The below tables details the similarity coefficient, the percentage savings and 
 | 2018-2019    | Ligue 1     | 5.763644	  |  84.11%	 |  14.59353  |
 
 
-By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a **4.424397** similarity coefficient and a **74.68%** save on the budget. Looking at absolute amounts, the built team costs **€152.941.662** (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad). 
+By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a **4.424397** similarity coefficient and a **74.68%** save on the budget. Looking at absolute amounts, the built team costs **€152.941.662** (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad in [Serie A 2020/2021](https://www.gonfialarete.com/2020/10/07/serie-a-2020-2021-il-valore-delle-rose-napoli-sul-podio/)). 
 
-If we look at the two coefficients we built along the process (Likability of the signing, based on PlayeRank score/Player Valuation, and their average PlayeRank index), we discover that the two teams are very similar in the total sum of the PlayeRank score (**2.96** for the low-cost players, **3.02** for the winners), but low-cost players have a way higher total likability (**957.38** vs **851.27**). In the following table, the low-cost team for Serie A, 2020/2021: <br />
+If we look at two of the coefficients we have in our dataset (Likability of the signing and average PlayeRank index), we discover that the two teams are very similar in the total sum of the PlayeRank score (**2.96** for the low-cost players, **3.02** for the winners), but low-cost players have a way higher total likability (**957.38** vs **851.27**). In the following table, the low-cost team for Serie A, 2020/2021: <br />
 
 
 |	Similarity   |	Player              	| Valuation     |	Position      |
