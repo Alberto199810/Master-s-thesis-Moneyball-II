@@ -76,35 +76,28 @@ Within the repository, you can see four main folders:
 ### 01_Datasets
 In this folder, you can find the scripts I wrote to build my final dataset. Moreover, in the section [Leagues Comparison](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/tree/main/01_Datasets/Leagues%20Comparison) you can see the code I applied to standardize statistics across leagues, producing the following map of European Leagues:
 
-<p align="center">
 <img src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/leghe_net.png" class="aligncenter" width="650">
-</p>
   
 How was this computed? I took the data regarding all European matches in the last 12 years (from 2010 to 2022), and I generated a contact matrix, with this reasoning:
 
 Given three matches between a Serie A team and a Ligue 1 team with these results (Serie A 2-1 Ligue 1, Ligue 1 3-0 Serie A, Serie A 6-2 Ligue 1, Ligue 1 1-4 Serie A), the starting matrix was:
 
-<p align="center">
 |           | Serie A  | Ligue 1  | 
 | :-------: | :-------:| :-------: |
 | Serie A   |  0  |  3  |   
 | Ligue 1   |  8  |  0  |  
-</p>
 
 Where C<sub>i,j</sub> is the difference with which league j has beaten league i in the matches that j won against i, while C<sub>j,i</sub> is the difference with which league i has beaten league j in the matches that i won against j. Then, to standardize everything and make it consistent, I divided both C<sub>i,j</sub> and C<sub>j,i</sub> by (C<sub>i,j</sub> + C<sub>j,i</sub>). So the resulting matrix, in our case, was:
 
-<p align="center">
 |           | Serie A  | Ligue 1  | 
 | :-------: | :-------:| :-------: |
 | Serie A   |  0  |  0.27  |   
 | Ligue 1   |  0.73  |  0  |
-</p>
 
 By doing like this, we could create a directed graph where the weight of the directed link from node i to node j was equal to C<sub>i,j</sub> (in our case, link **FROM** Ligue 1 **TO** Serie A had a weight of **0.73**, while link **FROM** Serie A **TO** Ligue 1 had a weight of **0.27**), meaning that a link of a certain weight from node i to node j is generated to represent by how many goals (on average) league i **loses against** league j. 
 
 Finally, to represent everything, the node size in the plot is depending on the average degree of the in-edges. That's how I built the network, with node size representing how ```difficult``` (and for this reason *powerful*) a certain league is. Then, other calculation was applied to obtain 5 final ```difficulty coefficients```, represented in the following table:
 
-<p align="center">
 |  League  | Difficulty Index | 
 | :------------------: | :----------------:|
 | La Liga   |  1  | 
@@ -112,7 +105,6 @@ Finally, to represent everything, the node size in the plot is depending on the 
 | Fußball-Bundesliga | 0.931 |
 |  Serie A | 0.904 |
 |  Ligue 1 | 0.856 |
-</p>
   
 The rest of the scripts (the one in [Player Statistics](https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/tree/main/01_Datasets/Players%20Statistics) folder) are related to building the dataset with the statistics coming both from FBRef and PlayeRank. Once this dataset was defined, I multiplied the FBRef statistics with the difficulty coefficients, to standardize statistics across leagues. 
 
@@ -151,7 +143,6 @@ Here, a preview with some screenshots of the three plots (various interactive fi
 ## Results
 The below tables details the similarity coefficient, the percentage savings and the trade off coefficient for the top 5 values obtained for trade off coefficient. Obviously, the higher is trade-off, the best is the combination of similarities of statistics and money we're saving. <br />
 
-<p align="center">
 | Season       | League  | Similarity Coeff.  | Savings | Trade Off |
 | :----------: | :----------:| :-----------------: | :-------: | :---------:|
 | 2020-2021    | Serie A     | 4.424397	  |  74.68%   |	16.880303 |
@@ -159,13 +150,11 @@ The below tables details the similarity coefficient, the percentage savings and 
 | 2019-2020    | Serie A     | 5.254009	  |  80.59%	 |  15.338965 |
 | 2020-2021    | Bundesliga  | 5.364341	  |  82.05%	 |  15.296018 |
 | 2018-2019    | Ligue 1     | 5.763644	  |  84.11%	 |  14.59353  |
-</p>
 
 By looking at the resulting value, it seems that the best trade-off is found in Serie A 2020/2021, with a **4.424397** similarity coefficient and a **74.68%** save on the budget. Looking at absolute amounts, the built team costs **€152.941.662** (very close to the total value of Cagliari Calcio, the 12th team for total cost of the squad in [Serie A 2020/2021](https://www.gonfialarete.com/2020/10/07/serie-a-2020-2021-il-valore-delle-rose-napoli-sul-podio/)). 
 
 If we look at two of the coefficients we have in our dataset (Likability of the signing and average PlayeRank index), we discover that the two teams are very similar in the total sum of the PlayeRank score (**2.96** for the low-cost players, **3.02** for the winners), but low-cost players have a way higher total likability (**957.38** vs **851.27**). In the following table, the low-cost team for Serie A, 2020/2021: <br />
 
-<p align="center">
 |	Similarity   |	Player              	| Valuation     |	Position      |
 | :------------: | :----------------------:| :--------------: | :--------------:|
 |	4.293194     |	Claudio Bravo        |	€1.000.000    |	Goalkeeper    |
@@ -186,7 +175,6 @@ If we look at two of the coefficients we have in our dataset (Likability of the 
 |	5.250205	    | Saša Kalajdžić	      | €12.625.000	  | Striker       |
 |	6.221749	    | Sehrou Guirassy	     | €13.000.000	  | Striker       |
 |	3.847888	    | Karim Bellarabi	     | €5.750.000   	| Winger        |
-</p>
-  
+
 ## Credits
 This repository is by Alberto Allegri (alberto.allegri@studbocconi.com) as part of the Master's Thesis in Data Science & Business Analytics at Boccony University, with the supervision of professor Carlo Ambrogio Favero.
