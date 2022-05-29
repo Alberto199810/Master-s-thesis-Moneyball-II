@@ -18,7 +18,7 @@
 2. [Methodology](#methodology)
 3. [File Structure](#file-structure)
 4. [Results](#results)
-
+5. [Credits](#credits)
 
 ## General Info
 
