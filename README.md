@@ -89,7 +89,7 @@ Given three matches between a Serie A team and a Ligue 1 team with these results
 | Serie A   |  0  |  3  |   
 | Ligue 1   |  8  |  0  |  
 
-Where C<sub>i,j</sub> is the difference with which league j has beaten league i in the matches that j won against i, while C<sub>j,i</sub> is the difference with which league i has beaten league j in the matches that i won against j. Then, to standardize everything and make it consistent, I divided both C<sub>i,j</sub> and <sub>Cj,i</sub> by (C<sub>i,j</sub> + <sub>Cj,i</sub>). So the resulting matrix, in our case, was:
+Where C<sub>i,j</sub> is the difference with which league j has beaten league i in the matches that j won against i, while C<sub>j,i</sub> is the difference with which league i has beaten league j in the matches that i won against j. Then, to standardize everything and make it consistent, I divided both C<sub>i,j</sub> and C<sub>j,i</sub> by (C<sub>i,j</sub> + C<sub>j,i</sub>). So the resulting matrix, in our case, was:
 
 |           | Serie A  | Ligue 1  | 
 | :-------: | :-------:| :-------: |
