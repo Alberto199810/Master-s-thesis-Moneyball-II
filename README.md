@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://alberto-allegri-moneyball2.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+  <a href="https://alberto-allegri-moneyball2.herokuapp.com/" target=\"_blank\" rel=\"noopener noreferrer\>
     <img width="100" src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/04_App/notebooks/pict.png" alt="Thesis logo">
   </a>
 </p>
