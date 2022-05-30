@@ -4,7 +4,7 @@
 	</a>
 	<a href =https://www.linkedin.com/in/alberto-allegri/><img src =https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555>
 	</a>
-	<a href="https://twitter.com/AllegriAlberto"><img src="https://img.shields.io/twitter/follow/asabeneh?style=social" alt="Contact me on Twitter" height=28>
+	<a href="https://twitter.com/AllegriAlberto"><img src="https://img.shields.io/twitter/follow/AllegriAlberto?style=social" alt="Contact me on Twitter" height=28>
    	</a>
 </div>
 
