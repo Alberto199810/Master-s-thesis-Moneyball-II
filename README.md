@@ -1,27 +1,11 @@
 <!-- PROJECT SHIELDS -->
 <div align="center">
-
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/alberto-allegri/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-
-  <a class="header-badge" target="_blank" href="https://twitter.com/AllegriAlberto">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author: <a href="https://www.linkedin.com/in/alberto-allegri/" target="_blank">Alberto Allegri</a><br>
-<small> June, 2022</small></sub>
-
-</div>
-
-
-<div align="center">
-   	<a href="https://alberto-allegri-moneyball2.herokuapp.com/"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height=28>
-   	</a>
 	<a href =https://github.com/Alberto199810/Master-s-thesis-Moneyball-II/blob/main/LICENSE><img src =https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge>
 	</a>
 	<a href =https://www.linkedin.com/in/alberto-allegri/><img src =https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555>
 	</a>
+	<a href="https://twitter.com/AllegriAlberto"><img src="https://img.shields.io/twitter/follow/asabeneh?style=social" alt="Contact me on Twitter" height=28>
+   	</a>
 </div>
 
 <p align="center">
