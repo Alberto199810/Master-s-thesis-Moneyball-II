@@ -7,6 +7,7 @@
 	<a href="https://twitter.com/AllegriAlberto"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Contact me on Twitter" height=28>
    	</a>
 </div>
+<br />
 
 <p align="center">
   <a href="https://alberto-allegri-moneyball2.herokuapp.com/" target="_blank" rel="noopener noreferrer">
@@ -14,7 +15,6 @@
   </a>
 </p>
 <br />
-
 # Statistics and Sport: The Moneyball idea applied to Football world
 
 ### Alberto Allegri, Bocconi University, Master's Thesis in Data Science & Business Analytics
