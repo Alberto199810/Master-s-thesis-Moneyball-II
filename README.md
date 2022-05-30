@@ -14,7 +14,7 @@
     <img width="600" src="https://raw.githubusercontent.com/Alberto199810/Master-s-thesis-Moneyball-II/main/04_App/notebooks/pict2.png" alt="Thesis logo">
   </a>
 </p>
-<br />
+
 # Statistics and Sport: The Moneyball idea applied to Football world
 
 ### Alberto Allegri, Bocconi University, Master's Thesis in Data Science & Business Analytics
