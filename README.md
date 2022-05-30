@@ -82,7 +82,7 @@ In this folder, you can find the scripts I wrote to build my final dataset. More
   
 How was this computed? I took the data regarding all European matches in the last 12 years (from 2010 to 2022), and I generated a contact matrix, with this reasoning (example following):
 
-Given three matches between a Serie A team and a Ligue 1 team with these results (Serie A 2-1 Ligue 1, Ligue 1 3-0 Serie A, Serie A 6-2 Ligue 1, Ligue 1 1-4 Serie A), the starting matrix would be:
+Given four matches between a Serie A team and a Ligue 1 team with these results (Serie A 2-1 Ligue 1, Ligue 1 3-0 Serie A, Serie A 6-2 Ligue 1, Ligue 1 1-4 Serie A), the starting matrix would be:
 
 |           | Serie A  | Ligue 1  | 
 | :-------: | :-------:| :-------: |
