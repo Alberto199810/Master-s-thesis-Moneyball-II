@@ -89,16 +89,16 @@ Given four matches between a Serie A team and a Ligue 1 team with these results 
 | Serie A   |  0  |  3  |   
 | Ligue 1   |  8  |  0  |  
 
-Where C<sub>i,j</sub> is the difference with which league j has beaten league i in the matches that j won against i, while C<sub>j,i</sub> is the difference with which league i has beaten league j in the matches that i won against j. Then, to standardize everything and make it consistent, I divided both C<sub>i,j</sub> and C<sub>j,i</sub> by the total amount of matches they played one against the other. So the resulting matrix, in our case, would be:
+Where C<sub>i,j</sub> is the difference with which league j has beaten league i in the matches that j won against i, while C<sub>j,i</sub> is the difference with which league i has beaten league j in the matches that i won against j. Then, to standardize everything and make it consistent, I divided both C<sub>i,j</sub> and C<sub>j,i</sub> by the total amount of matches they played one against the other (here, 4). So the resulting matrix, in our case, would be:
 
 |           | Serie A  | Ligue 1  | 
 | :-------: | :-------:| :-------: |
 | Serie A   |  0  |  0.75  |   
 | Ligue 1   |  2  |  0  |
 
-By doing like this, we could create a directed graph where the weight of the directed link from node i to node j was equal to C<sub>i,j</sub> (in our case, link **FROM** Ligue 1 **TO** Serie A had a weight of **2**, while link **FROM** Serie A **TO** Ligue 1 had a weight of **0.75**), meaning that a link of a certain weight from node i to node j is generated to represent by how many goals (on average) league i **loses against** league j. 
+By doing like this, we could create a directed graph where the weight of the directed link from node i to node j was equal to C<sub>i,j</sub> (in our case, link **FROM** Ligue 1 **TO** Serie A would have a weight of **2**, while link **FROM** Serie A **TO** Ligue 1 would have a weight of **0.75**), meaning that a link of a certain weight from node i to node j is generated to represent how many goals (on average) league i **scores against** league j. So, by looking together at C<sub>i,j</sub> and C<sub>j,i</sub>, we can infer who's the *strongest* league by looking at their coefficients.
 
-Finally, to represent everything, the node size in the plot is depending on the average degree of the in-edges. That's how I built the network, with node size representing how ```difficult``` (and for this reason *powerful*) a certain league is. Then, other calculation was applied to obtain 5 final ```difficulty coefficients```, represented in the following table:
+Finally, to represent everything in the plot, the node size is depending on the average degree of the in-edges. That's how I built the network, with node size representing how ```difficult``` (and for this reason *powerful*) a certain league is. Then, other calculation was applied to obtain 5 final ```difficulty coefficients```, represented in the following table:
 
 |  League  | Difficulty Index | 
 | :------------------: | :----------------:|
