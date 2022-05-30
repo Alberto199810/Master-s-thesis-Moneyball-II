@@ -33,7 +33,7 @@
 
 ## General Info
 
-This repository contains the code for my Master's Thesis, where I try to replicate the moneyball idea (building a team capable of winning the league, but with a restricted budget) using football statistics coming from [FBRef Scouting Reports](https://fbref.com/en/players/70d74ece/scout/365_euro/Karim-Benzema-Scouting-Report), [Transfermarkt](https://www.transfermarkt.com/) and [PlayeRank](https://github.com/mesosbrodleto/playerank) data together.
+This repository contains the code for my Master's Thesis, where I try to replicate the [Moneyball idea](https://en.wikipedia.org/wiki/Moneyball) (building a team capable of winning the league, but with a restricted budget) using football statistics coming from [FBRef Scouting Reports](https://fbref.com/en/players/70d74ece/scout/365_euro/Karim-Benzema-Scouting-Report), [Transfermarkt](https://www.transfermarkt.com/) and [PlayeRank](https://github.com/mesosbrodleto/playerank) data together.
 
 If you want a visualization of aggregated PlayeRank data, you can visit the app I built under this link: https://alberto-allegri-moneyball2.herokuapp.com/.
 
