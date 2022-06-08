@@ -189,5 +189,17 @@ If we look at two of the coefficients we have in our dataset (Likability of the 
 |	6.221749	    | Sehrou Guirassy	     | €13.000.000	  | Striker       |
 |	3.847888	    | Karim Bellarabi	     | €5.750.000   	| Winger        |
 
+On the other side, if we try to take a look at who was the best substitute for Romelu Lukaku, when F.C. Internazionale lost him, we would receive the following table:
+
+|	Similarity   |	Player              	| Valuation     |	Position      |
+| :------------: | :----------------------:| :--------------: | :--------------:|
+|	5.680932     |	Tammy Abraham        |	€39.333.333   |	Striker    |
+|	7.554334	    | Krzysztof Piątek         |	€16.000.000 	| Striker   |
+|	7.809493	    | Joel Pohjanpalo	        |	€2.166.666  	| Striker   |
+|	8.500613 	| Maxi Gómez   |	€29.250.000 	| Striker   |
+|	8.565245   	| Sehrou Guirassy         	| €13.000.000	   | Striker     |
+
+As we can see, Tammy Abraham was his best substitute, looking at data from 2020/2021. In the 2021 summer, he was bought by A.S. Roma for €40.000.000, recording 27 goals and 5 assists in 53 games (1 goal every 157 minutes). Also Krzysztof Piątek was bought in January from A.C.F. Fiorentina, playing 948 minutes and scoring 7 goals (1 goal every 158 minutes). While they have a similarity of 5.68 and 7.55 with Lukaku, the actual signing of F.C. Internazionale had an average similarity of 18.95 (16.20 for Edin Džeko and 21.70 for Joaquín Correa), and were bought for a total of €30,000,000. Together, they scored 1 goal every 203 minutes (23 goals in 4688 minutes).
+
 ## Credits
 This repository is by Alberto Allegri (alberto.allegri@studbocconi.com) as part of the Master's Thesis in Data Science & Business Analytics at Boccony University, with the supervision of professor [Carlo Ambrogio Favero](https://didattica.unibocconi.eu/myigier/index.php?IdUte=48917&idr=1753&lingua=eng).
